@@ -7,7 +7,7 @@ An overview of articles
   {% endfor %}
 </ul>
 
-{% for post in site.posts sort post.date %}
+{% for post in site.posts | sort post.date %}
 <article>
 {{ post.content }}
 </article>

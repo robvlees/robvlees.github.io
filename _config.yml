@@ -22,7 +22,7 @@ title: Rob Vleeshouwers
 email: robvlees@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
   Senior System Engineer at Sopra Steria
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.vleeshouwers.ch" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  robvlees

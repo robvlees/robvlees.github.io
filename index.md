@@ -1,2 +1,1 @@
 
-{{ site.posts.first }}

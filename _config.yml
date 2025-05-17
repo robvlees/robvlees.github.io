@@ -1,20 +1,23 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Rob's Web Site
+author: Rob Vleeshouwers
+tagline: Rob's Web Site
+subtitle: >
+  Rob's Web Site
+email: robvlees@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Rob's Web Site
+baseurl: "/"
+url: "https://www.vleeshouwers.ch"
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+#gh_sponsor: 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
-force_theme: light
+#force_theme: light
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -24,7 +27,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: 
 
 
 plugins:
@@ -68,7 +71,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Rob Vleeshouwers"
       layout: post
       image: https://picsum.photos/id/16/800/600
       show_sidebar: true

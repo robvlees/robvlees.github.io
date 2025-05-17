@@ -1,7 +1,8 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Rob's Web Site
+subtitle: Welcome to my personal web site
 layout: page
+hero_image: /img/Website-index-background.png
 callouts: home_callouts
 show_sidebar: true
 ---

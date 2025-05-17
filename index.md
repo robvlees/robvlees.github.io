@@ -3,6 +3,7 @@ title: Rob's Web Site
 subtitle: Welcome to my personal web site
 layout: page
 hero_image: /img/Website-index-background.png
+hero_height: is-fullwidth
 callouts: home_callouts
 show_sidebar: true
 ---

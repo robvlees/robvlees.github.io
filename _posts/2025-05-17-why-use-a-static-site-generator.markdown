@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why use a static site generator"
+title:  "Why I use a static site generator for my web site"
 date:   2025-05-17 10:50:07
 categories: development
 description: "There are many ways to make a website, but what about static site generators"

@@ -9,6 +9,7 @@ hero_height: is-large
 hero_darken: true
 tags: bulma-clean-theme jekyll blog
 series: example_blog_series
+hidden: true
 ---
 
 From version 0.12, you can now make a post a part of a series of posts, linking to the other posts in the series, by creating a `series` data file and then setting the series in each of the post's front matter.  

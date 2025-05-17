@@ -11,7 +11,7 @@ description: >
 baseurl: "/"
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /img/favicon-32x32.png
 #gh_sponsor: 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'

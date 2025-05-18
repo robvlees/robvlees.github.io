@@ -2,8 +2,8 @@
 title: Rob's Web Site
 subtitle: Welcome to my personal web site
 layout: page
-hero_image: /img/Website-index-background.png
-hero_height: is-large
+hero_image: /img/Web-hero-background_01.png
+hero_height: is-medium
 callouts: 
 show_sidebar: true
 ---

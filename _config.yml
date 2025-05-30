@@ -1,23 +1,20 @@
 # Site Settings
 lang: en
-title: Robby
-author: Rob Vleeshouwers
-tagline: Rob's Web Site
-subtitle: >
-  Rob's Web Site
-email: robvlees@gmail.com
+title: Rob's web site
+tagline: Rob's web site
+email: roibvlees@gmail.com
 description: >
-  Rob's Web Site
-baseurl: "/"
+  Rob's web site
+baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
-favicon: /img/favicon-32x32.png
-#gh_sponsor: 
+#favicon: /path/to/favicon.png
+gh_sponsor: 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
-#force_theme: light
+force_theme: light
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -27,7 +24,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: 
+  shortname: csrhymes
 
 
 plugins:
@@ -71,7 +68,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Rob Vleeshouwers"
+      author: "C.S. Rhymes"
       layout: post
       image: https://picsum.photos/id/16/800/600
       show_sidebar: true

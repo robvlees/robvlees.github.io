@@ -1,0 +1,5 @@
+---
+---
+$primary: #c76926;
+// Import Main CSS file from theme
+@import "main";

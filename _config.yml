@@ -1,10 +1,10 @@
 # Site Settings
 lang: en
 title: Rob's web site
-tagline: Rob's web site
-email: roibvlees@gmail.com
+tagline: Welcome to my web site
+email: robvlees@gmail.com
 description: >
-  Rob's web site
+  Welcome to my web site
 baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
@@ -68,7 +68,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "R. Vleeshouwers"
       layout: post
       image: https://picsum.photos/id/16/800/600
       show_sidebar: true

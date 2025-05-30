@@ -1,5 +1,5 @@
 ---
 ---
-$primary: #333333;
+$primary:rgb(231, 68, 68);
 // Import Main CSS file from theme
 @import "main";

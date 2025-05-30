@@ -13,7 +13,7 @@ url: "https://www.vleeshouwers.ch"
 permalink: pretty
 favicon: /img/favicon-32x32.png
 #gh_sponsor: 
-#hide_share_buttons: true
+hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
@@ -79,7 +79,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: example_footer_menu
+footer_menu: footer_menu
 
 collections:
   products: 

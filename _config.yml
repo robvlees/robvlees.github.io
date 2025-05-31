@@ -85,6 +85,9 @@ collections:
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
 
+google:
+      tag_manager:
+        container_id: G-703WPBYY61
 social:
   facebook: https://www.facebook.com/
   instagram: https://www.instagram.com/

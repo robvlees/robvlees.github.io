@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Image Gallery
-subtitle: An example image gallery page
-description: A simple image gallery page 
-gallery: example_gallery
+title: Blender Gallery
+subtitle: Blender Renders
+description: Blender Renders 
+gallery: blender_gallery
 show_sidebar: false
 ---
 

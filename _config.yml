@@ -8,7 +8,7 @@ description: >
 baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /img/favicon-32x32.png
 gh_sponsor: 
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
@@ -69,8 +69,9 @@ defaults:
       type: "posts"
     values:
       author: "R. Vleeshouwers"
+      author_image: /img/me.jpg
       layout: post
-      image: https://picsum.photos/id/16/800/600
+      image: /img/me.jpg
       show_sidebar: true
 
 markdown: kramdown
@@ -88,6 +89,7 @@ collections:
 google:
       tag_manager:
         container_id: G-703WPBYY61
+        
 social:
   facebook: https://www.facebook.com/
   instagram: https://www.instagram.com/

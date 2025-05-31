@@ -2,11 +2,11 @@
 layout: page
 title: Blender Gallery
 subtitle: Blender Renders
-description: Blender Renders 
+description: Blender Renders
+alt: 
 gallery: blender_gallery
 show_sidebar: false
+hero_image: /img/Web-hero-background_01.png
 ---
 
-This is an example page with an image gallery. 
-
-[View the Image Gallery Docs](/bulma-clean-theme/docs/page-components/image-gallery/)
+Blender image gallery.

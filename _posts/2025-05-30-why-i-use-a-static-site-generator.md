@@ -4,7 +4,9 @@ title:  "Why use a static site generator"
 date:   2025-05-30 10:50:07
 categories: development
 description: "There are many ways to make a website, but what about static site generators"
-image: '/img/static-site-generator.jpg'
+image: /img/static-site-generator.jpg
+hero_image: /img/static-site-generator.jpg
+hero_darken: true
 published: true
 canonical_url: https://www.vleeshouwers.ch/development/2018/05/28/why-use-a-static-site-generator.html
 ---

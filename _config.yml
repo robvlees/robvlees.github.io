@@ -89,12 +89,14 @@ collections:
 google:
       tag_manager:
         container_id: G-703WPBYY61
+
+facebook:
+  publisher: https://www.facebook.com/rob.vleeshouwers
         
 social:
-  facebook: https://www.facebook.com/
-  instagram: https://www.instagram.com/
-  threads: https://www.threads.net/
-  tiktok: https://www.tiktok.com/
-  x: https://www.x.com/
-  youtube: https://www.youtube.com/
+  name: Rob Vleeshouwers
+  linkedin: https://www.linkedin.com/in/vleeshouwers/
+  facebook: https://www.facebook.com/rob.vleeshouwers
+  github: https://github.com/robvlees
+  vimeo: https://vimeo.com/user5783542
   

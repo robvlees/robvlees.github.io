@@ -1,5 +1,11 @@
 - title: Blender 4.3
   images:
+    - link: /img/blender/ant_mountain_1.jpg
+      large_link: /img/blender/ant_mountain_1.jpg
+      alt: Ant Mountain final render
+      description: |- 
+        ###### Ant Mountain final render
+      ratio: is-5by3
     - link: /img/blender/ruin.jpg
       large_link: /img/blender/ruin.jpg
       alt: Ancient ruin final render

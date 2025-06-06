@@ -1,8 +1,28 @@
 ---
 layout: default
 ---
+<article class="media">
+  <figure class="media-left">
+  {% if page.avatar %}
+            <p class="image is-48x48">
+                <img src="{{ page.avatar }}" alt="{{ page.author }}" class="is-rounded">
+            </p>
+        {% else %}
+            <div class="icon is-large">
+                <i class="fas fa-user fa-2x"></i>
+            </div>
+        {% endif %}
+  </figure>
+  <div class="media-content">
+    <div class="content">
+      <p>
+        Published: {{ page.date | date: '%b %-d, %Y' }} by {{ page.author }} 
+      </p>
+    </div>
+  </div>
+</article>
+
 <div class="content">
-    <p>Published: {{ page.date | date: '%b %-d, %Y' }} by {{ page.author }} </p>
 
     {% if page.series %}
         {% include series.html %}

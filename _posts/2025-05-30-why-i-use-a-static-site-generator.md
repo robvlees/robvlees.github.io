@@ -9,7 +9,7 @@ image: /img/static-site-generator.jpg
 hero_image: /img/static-site-generator.jpg
 hero_darken: true
 published: true
-canonical_url: https://www.vleeshouwers.ch/development/2018/05/28/why-use-a-static-site-generator.html
+canonical_url: https://www.vleeshouwers.ch/development/2025/05/30/why-i-use-a-static-site-generator/
 ---
 
 There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators? 

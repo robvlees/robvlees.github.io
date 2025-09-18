@@ -27,7 +27,7 @@ To overwrite the primary theme colour, create a new file called `assets/css/app.
 ---
 $primary: #333333;
 // Import Main CSS file from theme
-@import "main";
+@use "main";
 ```
 
 To change the primary theme colour, set the sass variable `$primary` to the colour you want. Ensure this is set before the `@import "main";` line.
@@ -36,7 +36,7 @@ To change the primary theme colour, set the sass variable `$primary` to the colo
 
 Bulma has many sass variables that allows you to fully customise your site as you wish and make it your own design.
 
-You can overwrite any of the [Bulma initial variables](http://versions.bulma.io/0.7.0/documentation/overview/variables/) in this way as long as they are declared before the `@import "main";`.
+You can overwrite any of the [Bulma initial variables](http://versions.bulma.io/0.7.0/documentation/overview/variables/) in this way as long as they are declared before the `@use "main";`.
 
 You can also add any custom css you wish in the `app.scss` file.
 

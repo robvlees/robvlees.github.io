@@ -1,10 +1,13 @@
-- title: Blender 4.3
+- title: Blender 4.5.3 Gallery
+  subtitle: A selection of my Blender 3D artwork
+  description: A selection of my Blender 3D artwork
   images:
     - link: /img/blender/ant_mountain_1.jpg
       large_link: /img/blender/ant_mountain_1.jpg
       alt: Ant Mountain final render
       description: |- 
         ###### Ant Mountain final render
+        High Res: [4K version](https://www.flickr.com/photos/robvlees/22497866617/in/dateposted-public/) available on Flickr under Creative Commons License.
       ratio: is-5by3
     - link: /img/blender/ruin.jpg
       large_link: /img/blender/ruin.jpg

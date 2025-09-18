@@ -1,6 +1,6 @@
 ---
-title: Rob's web site
-subtitle: Welcome to my web site
+title: Rob Vleeshouwers
+subtitle: Welcome to my Personal Web Site
 layout: page
 callouts: 
 show_sidebar: true

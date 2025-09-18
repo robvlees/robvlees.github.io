@@ -2,8 +2,8 @@
 
 @use 'sass:math';
 
-@import '../node_modules/bulma/sass/utilities/initial-variables';
-@import '../node_modules/bulma/sass/utilities/derived-variables';
+@use '../node_modules/bulma/sass/utilities/initial-variables';
+@use '../node_modules/bulma/sass/utilities/derived-variables';
 
 $block-list-separator: 0.25rem !default;
 $block-list-highlight-width: 5px !default;

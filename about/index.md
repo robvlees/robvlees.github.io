@@ -17,9 +17,20 @@ description: Work history and Professional Summary of Rob Vleeshouwers career.
 
 ## Executive Summary
 
-Linux system engineer with more than 20 years of hands on IT experience in UNIX/LINUX system engineering, integration and virtualization.
+DevOps system engineer with more than 25 years of hands on IT experience in UNIX/LINUX and Windows system engineering, integration and virtualization.
 
-I’m a Linux System Engineer with a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other. Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands are necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
+I’m a DevOps System Engineer with a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other. Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands is necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
+
+## Skills
+
+|**Red Hat Linux**|**SuSe for SAP**|**AIX**|**Nutanix**|**Netapp Filer**|
+|**Virtualization**|**Integration**|**Python**|**Shell scripting**|**Ansible**|
+|**Puppet**|**Power VM**|**Oracle**|**MySQL**|**PostgreSQL**|
+|**InfluxDB**|**Grafana**|**Docker**|**Linux-HA**|**Jenkins**|
+|**Git**|**Kubernetes**|**Icinga**|**Foreman**|
+
+## Languages
+English (Fluent), Dutch (Fluent), German (Good), French (Good)
 
 ## Working Experience
 
@@ -58,20 +69,20 @@ I’m a Linux System Engineer with a wide knowledge of IT infrastructures, secur
 *	Active monitoring of all network nodes and all servers.
 *	Technical support for internal users.
 
-## Projects
+#### Ingersoll Rand, Switzerland (Manager Techical Support, 1998 - 2001)
 
-* [Casual-Markdown](https://github.com/casualwriter/powerpage) - a lightweight markdown parser
-* [Powerpage](https://github.com/casualwriter/powerpage) - a lightweight browser for html applications
+* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration, among others.
+
+#### Ingersoll Rand, Switzerland (Unix/OpenVMS Engineer, 1995 - 1998)
+
+* Installation, configuration and administration of UNIX (IBM AIX), Open VMS (DEC Alpha) and Linux (Redhat) servers.
+
+#### Ingersoll Rand, Netherlands (Technical Support Assistant, 1989 - 1995)
+
+* Technical Support of internal IT infrastructure: System/36, AS/400, RS/6000, Windows 3.11, Terminal Emulation and Lotus Notes.
+
 
 ## Education & Qualifications
 
-* AWS Certification (2021/12)
-* Oracle Certified Professional (2020/02)
-* Project Management Professional (PMP) (2018/10)
-* Bachelor of Computer Science (Sep 2004)
-* The Chinese University of Hong Kong (2000 - 2004)
-
-## Misc. Information
-
-* Languages: English (good), Cantonese (fluent/native), Mandarin (good)
-* Availability: 1 month's notice
+* Analist/Programmer IBM AS/400 (Cobol) 1989
+* Art And Media Technologie 1988

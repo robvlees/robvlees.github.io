@@ -10,7 +10,7 @@ description: Work history and Professional Summary of Rob Vleeshouwers career.
 <img style="float:right;border-radius:50%;width:70px;padding:6px" src="/img/me_1.jpg" />
 
 <span style="float:right;padding:6px"> 
-  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br> [![![Linkedin](https://www.vleeshouwers.ch/img/linkedin.svg) LinkedIn](https://www.linkedin.com/in/vleeshouwers)
+  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br><i class="fa-brands fa-linkedin"></i>  [Linkedin](https://www.linkedin.com/in/vleeshouwers)
 </span>
 
 # Linux System Engineer

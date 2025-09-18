@@ -1,10 +1,10 @@
 # Site Settings
 lang: en
-title: Rob's web site
+title: Rob Vleeshouwers
 tagline: Welcome to my web site
 email: robvlees@gmail.com
 description: >
-  Welcome to my web site
+  Welcome to my Personal web site
 baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty

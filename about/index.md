@@ -10,7 +10,7 @@ description: Work history and Professional Summary of Rob Vleeshouwers career.
 <img style="float:right;border-radius:50%;width:70px;padding:6px" src="/img/me_1.jpg" />
 
 <span style="float:right;padding:6px"> 
-  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch
+  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br> [![![Linkedin](https://www.vleeshouwers.ch/img/linkedin.svg) LinkedIn](https://www.linkedin.com/in/vleeshouwers)
 </span>
 
 # Linux System Engineer
@@ -71,7 +71,7 @@ English (Fluent), Dutch (Fluent), German (Good), French (Good)
 
 #### Ingersoll Rand, Switzerland (Manager Techical Support, 1998 - 2001)
 
-* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration, among others.
+* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration.
 
 #### Ingersoll Rand, Switzerland (Unix/OpenVMS Engineer, 1995 - 1998)
 
@@ -84,5 +84,5 @@ English (Fluent), Dutch (Fluent), German (Good), French (Good)
 
 ## Education & Qualifications
 
-* Analist/Programmer IBM AS/400 (Cobol) 1989
-* Art And Media Technologie 1988
+Analist/Programmer IBM AS/400 (Cobol) 1989  
+Art And Media Technologie 1988

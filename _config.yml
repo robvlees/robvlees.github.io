@@ -99,7 +99,7 @@ jekyll-seo-tag:
       defaults:
         title: "Rob's web site"
         description: "Welcome to my web site"
-        image: "/img/logo.png"
+        image: "/img/Logo.png"
         url: "{{ site.url }}"
         
 

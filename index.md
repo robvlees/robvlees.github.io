@@ -9,7 +9,7 @@ hero_image: /img/Web-hero-background_01.jpg
 
 Hello, I’m a Linux DevOPS Engineer with a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other. Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands is necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
 
-I'm a strong supported of the Open Source Cummunity and in my Blog I will mainly write Articles who are Technical and Open Source oriented.
+I'm a strong supporter of the Open Source Community and was or still are active in several Blender communities, in my Blog I will mainly write Articles who are Technical and Open Source oriented.
 
 Open source should be:
 

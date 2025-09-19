@@ -61,7 +61,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: /img/Logo.png
+      image: /img/Web-hero-background_01.jpg
   -
     scope:
       path: ""

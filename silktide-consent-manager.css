@@ -18,8 +18,8 @@
               --textColor: #4b494b;
               --backdropBackgroundColor: #00000033;
               --backdropBackgroundBlur: 0px;
-              --cookieIconColor: #d35f12;
-              --cookieIconBackgroundColor: #ffffff;
+              --cookieIconColor: #FFFFFF;
+              --cookieIconBackgroundColor: #D35F12;
               position: fixed;
   bottom: 0;
   right: 0;

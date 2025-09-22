@@ -53,7 +53,6 @@ sass:
   # load_paths: 
     # - node_modules
 
-#google_analytics: UA-code-here
 cookie_policy: /cookie-policy/
 
 defaults:
@@ -90,7 +89,8 @@ collections:
     layout: product
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
-
+    
+#google_analytics: UA-code-here
 google:
       tag_manager:
         container_id: G-703WPBYY61

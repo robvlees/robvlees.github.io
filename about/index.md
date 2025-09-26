@@ -23,14 +23,13 @@ I have a wide knowledge of IT infrastructures, security, application services an
 
 ## Skills
 
-|**Red Hat Linux**|**SuSe for SAP**|**AIX**|**Nutanix**|**Netapp Filer**|
-|**Virtualization**|**Integration**|**Python**|**Shell scripting**|**Ansible**|
-|**Puppet**|**Power VM**|**Oracle**|**MySQL**|**PostgreSQL**|
-|**InfluxDB**|**Grafana**|**Docker**|**Linux-HA**|**Jenkins**|
-|**Git**|**Kubernetes**|**Icinga**|**Foreman**|
+|**Red Hat Enterprise Linux administration**|**Suse Enterprise Linux administration**|**AIX system management**|**Proficient in Python**|**Shell script development**|
+|**Ansible automation**|**Puppet Automation**|**Git repository management**|**Kubernetes management**|**Jenkins automation**|
+|**MySQL management**|**PostgreSQL management**|**Forman provisioning**|**Docker deployment**|**Grafana monitoring**|
+|**Icinga monitoring**|**Oracle DB Management**|**Power VM Administration**|
 
 ## Languages
-English (Fluent), Dutch (Fluent), German (Good), French (Good)
+English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)
 
 ## Working Experience
 

@@ -17,9 +17,9 @@ description: Work history and Professional Summary of Rob Vleeshouwers career.
 
 ## Professional Summary
 
-I am an experienced System and DevOPS Engineer in Unix/Linux System Engineering, Integration, Virtualization and Databank Products.
- 
-I have a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other. Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands is necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
+Experienced System and DevOps Engineer in Unix/Linux System Engineering, Integration, Virtualization and Database Products, with a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other.
+
+Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands are necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
 
 ## Skills
 

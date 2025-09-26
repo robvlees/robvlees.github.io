@@ -83,5 +83,7 @@ English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)
 
 ## Education & Qualifications
 
-Analist/Programmer IBM AS/400 (Cobol) 1989  
+Certified AIX Specialist<br>
+Microsoft Certified Professional<br>
+Certified Analist/Programmer IBM AS/400 (Cobol) 1989<br>
 Art And Media Technologie 1988

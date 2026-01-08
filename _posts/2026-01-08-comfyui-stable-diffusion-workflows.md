@@ -4,8 +4,8 @@ title:  "Getting Started with ComfyUI: A Powerful Node-Based Interface for Stabl
 date:   2026-01-08 10:50:07
 avatar: /img/me_1.jpg
 description: "Explore ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding"
-image: /img/comfyui.jpg
-hero_image: /img/comfyui.jpg
+image: /img/Logo.png
+hero_image: /img/Logo.png
 hero_darken: true
 published: true
 ---
@@ -16,7 +16,7 @@ If you're interested in AI image generation and have experimented with Stable Di
 
 ComfyUI is a powerful interface built for Stable Diffusion that uses a node-based system. Instead of a traditional form-based interface, you work with nodes connected together in a visual workflow. Each node represents a specific function or process in the image generation pipeline, such as loading models, applying prompts, controlling sampling parameters, or post-processing images.
 
-![ComfyUI Interface Example](/img/comfyui-interface.jpg)
+<!-- Add screenshot: ![ComfyUI Interface Example](/img/comfyui-interface.jpg) -->
 
 This approach might seem familiar if you've used node-based compositing software like Blender's Shader Editor or Nuke. If you're comfortable with visual programming, ComfyUI will feel natural. If not, there's a learning curve, but the flexibility it provides is worth the investment.
 
@@ -30,7 +30,7 @@ Unlike simpler interfaces that hide complexity, ComfyUI exposes the entire image
 
 One of ComfyUI's strongest features is the ability to save workflows as JSON files. Once you've created a workflow that produces the results you want, you can save it and reuse it later. You can also share workflows with others or load workflows shared by the community. This makes it easy to build up a library of proven workflows for different types of image generation.
 
-![Complex ComfyUI Workflow](/img/comfyui-complex-workflow.jpg)
+<!-- Add screenshot: ![Complex ComfyUI Workflow](/img/comfyui-complex-workflow.jpg) -->
 
 **Performance Optimization**
 
@@ -50,15 +50,14 @@ For those who prefer not to deal with local installation, cloud-based services l
 
 Working with nodes might seem intimidating at first, but it's actually quite intuitive once you understand the basics. You start with input nodes for your prompt and settings, connect them through processing nodes like model loaders and samplers, and end with output nodes that generate your image.
 
-![Example ComfyUI Workflow](/img/comfyui-workflow.jpg)
+<!-- Add screenshot: ![Example ComfyUI Workflow](/img/comfyui-workflow.jpg) -->
 
 The visual nature of the interface makes it easy to see how data flows through your workflow. You can experiment by adding nodes, modifying connections, and adjusting parameters until you achieve the desired results.
 
-Here's an example of images generated using ComfyUI workflows:
-
+<!-- Add generated image examples when available:
 ![AI Generated Image Example 1](/img/comfyui-example-1.jpg)
-
 ![AI Generated Image Example 2](/img/comfyui-example-2.jpg)
+-->
 
 ## Open Source and Community
 

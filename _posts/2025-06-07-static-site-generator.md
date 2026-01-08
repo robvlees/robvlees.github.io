@@ -10,12 +10,12 @@ hero_darken: true
 published: true
 ---
 
-There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators? 
+There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators?
 
 A static site is pretty much what it sounds like, a set of pre generated html pages. Other platforms take what you enter into the CMS and process the information stored in the database, alongside a template or many template partials and dynamically construct the page before serving the html to you in your browser.  
 
 ## Speed
-The initial advantage of a static site over a dynamic, database driven site is the page speed as means a lot less processing has to be done before the page is delivered. Some CMS’s provide caching which means that the first visitor to the page gets a dynamic version and then stores a cache of the page. This means subsequent visitor to the page gets the page quicker than the first. If you have a regularly cleared cache, or low numbers of visitors, subsequent visitors may not benefit from the caching and would all experience the increased load times. 
+The initial advantage of a static site over a dynamic, database driven site is the page speed as it means a lot less processing has to be done before the page is delivered. Some CMS’s provide caching which means that the first visitor to the page gets a dynamic version and then stores a cache of the page. This means subsequent visitor to the page gets the page quicker than the first. If you have a regularly cleared cache, or low numbers of visitors, subsequent visitors may not benefit from the caching and would all experience the increased load times. 
 
 ## Version Control
 The next advantage of a static site is that it is that it can be version controlled. Usually a CMS relies on a database, which means that if you delete a page or some page content you either have to have revisions enabled in your CMS so you can roll back to a previous version or you need regular backups of your database so you can roll that back to a previous version. A static site with version control means you can easily revert to a previous version of your site and content without the need for database manipulation. 
@@ -35,4 +35,4 @@ A lot of people like the idea of installing a plugin into a CMS to handle things
 One last thing to consider is website security. There is always a chance that using a popular CMS will leave your site vulnerable as there are always security issues being identified. You need to constantly keep your site up to date and lock down the CMS login as secure as possible. With a static site, there is no login screen. The original content lives somewhere else and the compiled, generated html is all that needs to be uploaded to your website, minimising the risk. Any public facing website has some risk but anything you can do to minimise it is better for your website in the long run. 
 
 ## What will you use on your next project?
-A static site may not be the first thing you consider when building your new website, but it’s definitely worth exploring the pros and cons before you start the next project. After all, a faster, more secure site is better for you and your visitors. 
+A static site may not be the first thing you consider when building your new website, but it's definitely worth exploring the pros and cons before you start the next project. After all, a faster, more secure site is better for you and your visitors.

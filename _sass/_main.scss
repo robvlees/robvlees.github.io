@@ -24,6 +24,20 @@ $hero-darken: $dark !default;
   color: #ea4aaa;
 }
 
+// Larger modal for image gallery
+.modal-content {
+  max-width: 1400px;  // Can be even larger if needed
+  width: 95%;  // Responsive - uses 95% of viewport width up to max-width
+  max-height: 95vh;  // Limit height to 95% of viewport
+  
+  .image {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
 // Custom aspect ratios for image-modal
 .image.is-21by9 {
   aspect-ratio: 21 / 9;

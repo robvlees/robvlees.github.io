@@ -115,3 +115,22 @@ $hero-darken: $dark !default;
     object-fit: cover;
   }
 }
+
+// White hamburger menu
+.navbar-burger {
+  color: white !important;
+  
+  span {
+    background-color: white !important;
+  }
+  
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  &.is-active {
+    span {
+      background-color: white !important;
+    }
+  }
+}

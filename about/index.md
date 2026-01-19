@@ -21,12 +21,13 @@ Results-driven Linux System Engineer with extensive experience in Unix/Linux sys
 
 Demonstrated ability to translate complex business requirements into practical technical solutions while maintaining excellent communication with diverse stakeholders. Expertise spans multiple operating systems including AIX, RHEL, SUSE, and Ubuntu, with deep knowledge of cloud technologies, containerization, and infrastructure automation.
 
-## Skills
+## Core Competencies
 
-|**Red Hat Enterprise Linux administration**|**Suse Enterprise Linux administration**|**AIX system management**|**Proficient in Python**|**Shell script development**|
-|**Ansible automation**|**Puppet Automation**|**Git repository management**|**Kubernetes management**|**Jenkins automation**|
-|**MySQL management**|**PostgreSQL management**|**Forman provisioning**|**Docker deployment**|**Grafana monitoring**|
-|**Icinga monitoring**|**Oracle DB Management**|**Power VM Administration**|
+**System Administration:** Red Hat Enterprise Linux, SUSE Enterprise Linux, AIX, Ubuntu
+**Automation & DevOps:** Ansible, Puppet, Jenkins, Git, Docker, Kubernetes
+**Databases:** MySQL, PostgreSQL, Oracle
+**Monitoring & Security:** Icinga, Grafana, HashiCorp Vault
+**Infrastructure:** Cloud Technologies, Virtualization, High Availability Solutions
 
 ## Languages
 English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)

@@ -21,66 +21,66 @@ Results-driven Linux System Engineer with extensive experience in Unix/Linux sys
 
 Demonstrated ability to translate complex business requirements into practical technical solutions while maintaining excellent communication with diverse stakeholders. Expertise spans multiple operating systems including AIX, RHEL, SUSE, and Ubuntu, with deep knowledge of cloud technologies, containerization, and infrastructure automation.
 
-## Core Competencies
+## Skills
 
-**System Administration:** Red Hat Enterprise Linux, SUSE Enterprise Linux, AIX, Ubuntu
-**Automation & DevOps:** Ansible, Puppet, Jenkins, Git, Docker, Kubernetes
-**Databases:** MySQL, PostgreSQL, Oracle
-**Monitoring & Security:** Icinga, Grafana, HashiCorp Vault
-**Infrastructure:** Cloud Technologies, Virtualization, High Availability Solutions
+**System Administration:** Red Hat Enterprise Linux, SUSE Enterprise Linux, AIX system management
+**Automation & DevOps:** Python, Shell scripting, Ansible, Puppet, Git, Jenkins
+**Database Technologies:** MySQL, PostgreSQL, Oracle DB
+**Infrastructure & Monitoring:** Kubernetes, Docker, Grafana, Icinga, Forman
+**Cloud & Virtualization:** Cloud technologies, containerization, infrastructure automation
 
 ## Languages
+
 English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)
 
 ## Working Experience
 
 #### Sopra Steria Urdorf, Switzerland (Senior System Engineer, 2021 - Sep. 2024) 
 
-* Operation and maintenance of road infrastructure surveillance system.
-* DevOps and Cloud Engineer for External Client.
-* Technical Support for Jira and Bitbucket.
-* Consolidation of 7 separate Jira and Bitbucket instances into one central Instance.
+* Operation and maintenance of road infrastructure surveillance system
+* DevOps and Cloud Engineer for External Client
+* Technical Support for Jira and Bitbucket
+* Consolidation of 7 separate Jira and Bitbucket instances into one central Instance
 
 #### Adfinis AG Bern, Switzerland (Linux System Engineer, 2019- 2020) 
 
-* Design and architect high availability solutions, applications and infrastructure, across data centers. 
-* Assist clients with the specific goal of increasing the automation, repeatability, and consistency of operational tasks.
-* Hashicorp Vault installation and configuration on client sites.
+* Design and architect high availability solutions, applications and infrastructure, across data centers
+* Assist clients with the specific goal of increasing the automation, repeatability, and consistency of operational tasks
+* Hashicorp Vault installation and configuration on client sites
 
 #### Swatch Group Services Biel, Switzerland (Linux System Engineer, 2017 - 2019)
 
-* Responsible for the Linux Infrastructure: RHEL, Ubuntu LTS on Nutanix, SuSe for SAP HANA on IBM Power.
-* 3rd level support and document procedures for the Linux operations team.
-* Participate in on-call rotation duties.
+* Responsible for the Linux Infrastructure: RHEL, Ubuntu LTS on Nutanix, SuSe for SAP HANA on IBM Power
+* 3rd level support and document procedures for the Linux operations team
+* Participate in on-call rotation duties
 
 #### IMTF Givisiez, Switzerland (Senior Technical Integrator, 2005 - 2015)
 
-* Planning installation, configuration and performance analysis of Document Management. Systems (Hypersuite) and Payment System (ZV/2)
-* Installation, configuration and deployment of UNIX /AIX (HP, IBM, Sun) and Linux (Red Hat, Intel-Solaris) servers at client locations.
-* Involvement and management of client projects.
-* Technical support and client consulting.
-* Installation, configuration and tuning of Oracle DBs.
+* Planning installation, configuration and performance analysis of Document Management Systems (Hypersuite) and Payment System (ZV/2)
+* Installation, configuration and deployment of UNIX/AIX (HP, IBM, Sun) and Linux (Red Hat, Intel-Solaris) servers at client locations
+* Involvement and management of client projects
+* Technical support and client consulting
+* Installation, configuration and tuning of Oracle DBs
 
 #### IMTF Givisiez, Switzerland (Systems Administrator, 2002 - 2004)
 
-* Responsible for the internal IT infrastructure:  TCP/IP Network, Windows NT/2000/2003 servers, MS Exchange 2003, Linux (Debian, Redhat) servers.
-* Deployment and troubleshooting of IPSec VPN Tunnels.
-* Migration from NIS to Kerberos/LDAP authentication.
-* Active monitoring of all network nodes and all servers.
-* Technical support for internal users.
+* Responsible for the internal IT infrastructure: TCP/IP Network, Windows NT/2000/2003 servers, MS Exchange 2003, Linux (Debian, Redhat) servers
+* Deployment and troubleshooting of IPSec VPN Tunnels
+* Migration from NIS to Kerberos/LDAP authentication
+* Active monitoring of all network nodes and all servers
+* Technical support for internal users
 
 #### Ingersoll Rand, Switzerland (Manager Techical Support, 1998 - 2001)
 
-* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration.
+* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration
 
 #### Ingersoll Rand, Switzerland (Unix/OpenVMS Engineer, 1995 - 1998)
 
-* Installation, configuration and administration of UNIX (IBM AIX), Open VMS (DEC Alpha) and Linux (Redhat) servers.
+* Installation, configuration and administration of UNIX (IBM AIX), Open VMS (DEC Alpha) and Linux (Redhat) servers
 
 #### Ingersoll Rand, Netherlands (Technical Support Assistant, 1989 - 1995)
 
-* Technical Support of internal IT infrastructure: System/36, AS/400, RS/6000, Windows 3.11, Terminal Emulation and Lotus Notes.
-
+* Technical Support of internal IT infrastructure: System/36, AS/400, RS/6000, Windows 3.11, Terminal Emulation and Lotus Notes
 
 ## Education & Qualifications
 

@@ -17,9 +17,9 @@ description: Work history and Professional Summary of Rob Vleeshouwers career.
 
 ## Professional Summary
 
-Experienced System and DevOps Engineer in Unix/Linux System Engineering, Integration, Virtualization and Database Products, with a wide knowledge of IT infrastructures, security, application services and how to integrate different computing platforms with each other.
+Results-driven Linux System Engineer with extensive experience in Unix/Linux system engineering, DevOps practices, virtualization, and database technologies. Proven track record of designing and implementing robust IT infrastructures with a strong focus on security, automation, and cross-platform integration.
 
-Has overall responsibility for the “blueprint” or technology architecture that drives the other services. Good communication skills preferable in the language the customer demands are necessary to understand the customer needs and implement their requirements in a practical way rather than theoretical.
+Demonstrated ability to translate complex business requirements into practical technical solutions while maintaining excellent communication with diverse stakeholders. Expertise spans multiple operating systems including AIX, RHEL, SUSE, and Ubuntu, with deep knowledge of cloud technologies, containerization, and infrastructure automation.
 
 ## Skills
 
@@ -49,24 +49,24 @@ English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)
 #### Swatch Group Services Biel, Switzerland (Linux System Engineer, 2017 - 2019)
 
 * Responsible for the Linux Infrastructure: RHEL, Ubuntu LTS on Nutanix, SuSe for SAP HANA on IBM Power.
-*	3rd level support and document procedures for the Linux operations team.
-*	Participate in on-call rotation duties.
+* 3rd level support and document procedures for the Linux operations team.
+* Participate in on-call rotation duties.
 
 #### IMTF Givisiez, Switzerland (Senior Technical Integrator, 2005 - 2015)
 
 * Planning installation, configuration and performance analysis of Document Management. Systems (Hypersuite) and Payment System (ZV/2)
-*	Installation, configuration and deployment of UNIX /AIX (HP, IBM, Sun) and Linux (Red Hat, Intel-Solaris) servers at client locations.
-*	Involvement and management of client projects.
-*	Technical support and client consulting.
-*	Installation, configuration and tuning of Oracle DBs.
+* Installation, configuration and deployment of UNIX /AIX (HP, IBM, Sun) and Linux (Red Hat, Intel-Solaris) servers at client locations.
+* Involvement and management of client projects.
+* Technical support and client consulting.
+* Installation, configuration and tuning of Oracle DBs.
 
 #### IMTF Givisiez, Switzerland (Systems Administrator, 2002 - 2004)
 
-*	Responsible for the internal IT infrastructure:  TCP/IP Network, Windows NT/2000/2003 servers, MS Exchange 2003, Linux (Debian, Redhat) servers.
-*	Deployment and troubleshooting of IPSec VPN Tunnels.
-*	Migration from NIS to Kerberos/LDAP authentication.
-*	Active monitoring of all network nodes and all servers.
-*	Technical support for internal users.
+* Responsible for the internal IT infrastructure:  TCP/IP Network, Windows NT/2000/2003 servers, MS Exchange 2003, Linux (Debian, Redhat) servers.
+* Deployment and troubleshooting of IPSec VPN Tunnels.
+* Migration from NIS to Kerberos/LDAP authentication.
+* Active monitoring of all network nodes and all servers.
+* Technical support for internal users.
 
 #### Ingersoll Rand, Switzerland (Manager Techical Support, 1998 - 2001)
 

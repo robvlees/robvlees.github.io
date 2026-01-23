@@ -1,86 +1,55 @@
 ---
 layout: page
-title: Rob Vleeshouwers
+title: About Rob Vleeshouwers
 hero_height: is-fullwidth
 show_sidebar: false
-subtitle:
-description: Work history and Professional Summary of Rob Vleeshouwers career.
+subtitle: Personal background and professional journey
+description: Personal background, professional journey, and interests of Rob Vleeshouwers
 ---
 
-<img style="float:right;border-radius:50%;width:70px;padding:6px" src="/img/me_1.jpg" />
+<img style="float:right;border-radius:50%;width:120px;padding:6px" src="/img/me_1.jpg" alt="Rob Vleeshouwers" />
 
 <span style="float:right;padding:6px"> 
-  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br><i class="fa-brands fa-linkedin"></i>  <a href="https://www.linkedin.com/in/vleeshouwers" target="_blank" rel="noopener noreferrer">Linkedin</a>
+  robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br><i class="fa-brands fa-linkedin"></i>  <a href="https://www.linkedin.com/in/vleeshouwers" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </span>
 
-# Linux System Engineer
+# Rob Vleeshouwers
+## Linux System Engineer & Blender Artist
 
-## Professional Summary
+## Personal Introduction
 
-Results-driven Linux System Engineer with extensive experience in Unix/Linux system engineering, DevOps practices, virtualization, and database technologies. Proven track record of designing and implementing robust IT infrastructures with a strong focus on security, automation, and cross-platform integration.
+Hello! I'm Rob Vleeshouwers, a passionate Linux System Engineer with over two decades of experience in IT infrastructure and system administration. My journey began in the early 1990s as a technical support assistant, working with diverse computing platforms including IBM AS/400, Unix systems, and Windows environments. What started as a technical career has evolved into a blend of professional expertise and creative expression through 3D art and design using Blender.
 
-Demonstrated ability to translate complex business requirements into practical technical solutions while maintaining excellent communication with diverse stakeholders. Expertise spans multiple operating systems including AIX, RHEL, SUSE, and Ubuntu, with deep knowledge of cloud technologies, containerization, and infrastructure automation.
+## Professional Journey
 
-## Skills
+My career has been marked by continuous learning and adaptation to new technologies. I've had the privilege of working across various industries, from financial services to manufacturing, always focusing on creating robust, scalable, and secure IT infrastructures. My experience spans multiple operating systems including AIX, RHEL, SUSE, and Ubuntu, with a strong foundation in cloud technologies, containerization, and infrastructure automation. I've successfully led teams in implementing DevOps practices, managing complex system integrations, and developing automated solutions that improve efficiency and reduce operational overhead.
 
-**System Administration:** Red Hat Enterprise Linux, SUSE Enterprise Linux, AIX system management
-**Automation & DevOps:** Python, Shell scripting, Ansible, Puppet, Git, Jenkins
-**Database Technologies:** MySQL, PostgreSQL, Oracle DB
-**Infrastructure & Monitoring:** Kubernetes, Docker, Grafana, Icinga, Forman
-**Cloud & Virtualization:** Cloud technologies, containerization, infrastructure automation
+## Creative Exploration
+
+Beyond my technical work, I'm deeply passionate about 3D artistry using Blender. This creative outlet complements my analytical approach to problem-solving and provides a unique way to express ideas visually. My Blender gallery showcases landscapes, environments, characters, and complex animation sequences that demonstrate both my artistic development and technical skills in the 3D pipeline. The process of creating 3D models, textures, animations, and renders has taught me patience, attention to detail, and the importance of iterative improvement - skills that directly translate back to my professional work.
+
+## Personal Interests & Values
+
+When I'm not working with systems or creating 3D art, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with the community. I believe in the power of continuous learning and the importance of helping others grow in their technical journeys. My multicultural background and multilingual abilities have enabled me to work effectively in international environments, bridging cultural and technical gaps.
+
+## Skills & Expertise
+
+**Technical:**
+- Linux System Administration (RHEL, SUSE, AIX)
+- DevOps Practices (Ansible, Git, Jenkins)
+- Cloud Technologies & Containerization
+- Database Technologies (MySQL, PostgreSQL, Oracle DB)
+- Infrastructure & Monitoring (Kubernetes, Docker, Grafana)
+
+**Creative:**
+- 3D Modeling & Sculpting in Blender
+- Animation and Simulation
+- Rendering and Compositing
+- Motion Tracking and Video Editing
 
 ## Languages
 
 English (Fluent C1), Dutch (Fluent C1), German (Good C2), French (Good C2)
-
-## Working Experience
-
-#### Sopra Steria Urdorf, Switzerland (Senior System Engineer, 2021 - Sep. 2024) 
-
-* Operation and maintenance of road infrastructure surveillance system
-* DevOps and Cloud Engineer for External Client
-* Technical Support for Jira and Bitbucket
-* Consolidation of 7 separate Jira and Bitbucket instances into one central Instance
-
-#### Adfinis AG Bern, Switzerland (Linux System Engineer, 2019- 2020) 
-
-* Design and architect high availability solutions, applications and infrastructure, across data centers
-* Assist clients with the specific goal of increasing the automation, repeatability, and consistency of operational tasks
-* Hashicorp Vault installation and configuration on client sites
-
-#### Swatch Group Services Biel, Switzerland (Linux System Engineer, 2017 - 2019)
-
-* Responsible for the Linux Infrastructure: RHEL, Ubuntu LTS on Nutanix, SuSe for SAP HANA on IBM Power
-* 3rd level support and document procedures for the Linux operations team
-* Participate in on-call rotation duties
-
-#### IMTF Givisiez, Switzerland (Senior Technical Integrator, 2005 - 2015)
-
-* Planning installation, configuration and performance analysis of Document Management Systems (Hypersuite) and Payment System (ZV/2)
-* Installation, configuration and deployment of UNIX/AIX (HP, IBM, Sun) and Linux (Red Hat, Intel-Solaris) servers at client locations
-* Involvement and management of client projects
-* Technical support and client consulting
-* Installation, configuration and tuning of Oracle DBs
-
-#### IMTF Givisiez, Switzerland (Systems Administrator, 2002 - 2004)
-
-* Responsible for the internal IT infrastructure: TCP/IP Network, Windows NT/2000/2003 servers, MS Exchange 2003, Linux (Debian, Redhat) servers
-* Deployment and troubleshooting of IPSec VPN Tunnels
-* Migration from NIS to Kerberos/LDAP authentication
-* Active monitoring of all network nodes and all servers
-* Technical support for internal users
-
-#### Ingersoll Rand, Switzerland (Manager Techical Support, 1998 - 2001)
-
-* Responsible for the internal IT infrastructure: OpenVMS and AIX backend systems, Lotus Notes collaboration suite, Windows NT domain and workstation administration
-
-#### Ingersoll Rand, Switzerland (Unix/OpenVMS Engineer, 1995 - 1998)
-
-* Installation, configuration and administration of UNIX (IBM AIX), Open VMS (DEC Alpha) and Linux (Redhat) servers
-
-#### Ingersoll Rand, Netherlands (Technical Support Assistant, 1989 - 1995)
-
-* Technical Support of internal IT infrastructure: System/36, AS/400, RS/6000, Windows 3.11, Terminal Emulation and Lotus Notes
 
 ## Education & Qualifications
 

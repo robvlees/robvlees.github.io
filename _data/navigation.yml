@@ -1,5 +1,7 @@
 - name: Blog
   link: /blog/
+- name: Portfolio
+  link: /portfolio/
 - name: Blender
   link: /gallery/
 - name: About

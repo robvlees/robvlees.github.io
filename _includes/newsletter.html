@@ -1,12 +1,28 @@
-<h2 class="title mb-4 has-text-centered">Subscribe to the newsletter</h2>
-<form>
-    <label class="label">Email</label>
-    <div class="field has-addons">
-        <div class="control is-expanded">
-            <input class="input is-medium" type="text" type="email">
-        </div>
-        <div class="control">
-            <button class="button is-medium is-primary">Submit</button>
+<!-- Newsletter Signup -->
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content has-text-centered">
+                    <h2 class="title is-3">Stay Updated</h2>
+                    <p class="subtitle is-5">Subscribe to my newsletter for the latest articles and updates</p>
+                    
+                    <form action="https://formspree.io/f/mqkzvbyb" method="POST" class="has-text-left">
+                        <div class="field">
+                            <label class="label">Email Address</label>
+                            <div class="control">
+                                <input type="email" name="email" class="input" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-primary">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-</form>
+</section>

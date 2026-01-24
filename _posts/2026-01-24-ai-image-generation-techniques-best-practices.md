@@ -143,5 +143,5 @@ The key is to approach AI as a collaborative tool rather than a replacement for 
 As AI technology continues to evolve, staying informed about new techniques and best practices will be essential for anyone serious about creative work. The principles outlined here provide a foundation for developing your own approach to AI image generation that fits your specific needs and artistic goals.
 
 **Related Posts:**
-- [Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion](/blog/comfyui-stable-diffusion-workflows/)
+- [Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion](/2026/01/08/comfyui-stable-diffusion-workflows/)
 - [Blender 3D Artistry: From Concept to Final Render](/gallery/)

@@ -13,11 +13,10 @@
             {% if post.image %}
                 <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             {% endif %}
-            {% if post.summary %}
-                {{ post.summary | markdownify }}
-            {% else %}
-                <p>{{ post.excerpt }}</p>
-            {% endif %}
+            {% for item in site.my_tutorials %}
+               <h2>{{ item.title }}</h2>
+               <p>{{ item.content | markdownify }}</p>
+            {% endfor %}
          </div>
         <div class="has-text-centered">
             <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary"

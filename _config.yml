@@ -89,7 +89,13 @@ collections:
     layout: product
     image: https://picsum.photos/id/16/800/600
     show_sidebar: false
-    
+  tutorials:
+    output: true
+    layout: tutorial
+    show_sidebar: true
+    permalink: /tutorials/:name/
+
+
 #google_analytics: UA-code-here
 google:
       tag_manager:

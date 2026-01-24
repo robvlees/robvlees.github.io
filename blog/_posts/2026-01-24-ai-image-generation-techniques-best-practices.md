@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI Image Generation Techniques and Best Practices | Expert Guide"
+title:  "AI Image Generation Techniques and Best Practices"
 date:   2026-01-23 10:00:00
 author: "R. Vleeshouwers"
 avatar: /img/me.jpg

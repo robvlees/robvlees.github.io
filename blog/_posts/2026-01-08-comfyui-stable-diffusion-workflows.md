@@ -5,8 +5,8 @@ date:   2026-01-08 10:50:07
 author: "R. Vleeshouwers"
 avatar: /img/me.jpg
 description: "Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals."
-image: /img/Logo.png
-hero_image: /img/Logo.png
+image: /img/comfyui-workflow1.jpg
+hero_image: /img/comfyui-workflow1.jpg
 hero_darken: true
 published: true
 keywords: ComfyUI tutorial, Stable Diffusion, AI image generation, node-based interface, visual workflows, AI art tools, machine learning, creative AI, LinkedIn article
@@ -20,7 +20,7 @@ If you're interested in AI image generation and have experimented with Stable Di
 
 ComfyUI is a powerful interface built for Stable Diffusion that uses a node-based system. Instead of a traditional form-based interface, you work with nodes connected together in a visual workflow. Each node represents a specific function or process in the image generation pipeline, such as loading models, applying prompts, controlling sampling parameters, or post-processing images.
 
-![ComfyUI Interface Example](/img/blender/sunset.jpg)
+![ComfyUI Interface Example](/img/comfyui-workflow1.jpg)
 
 This approach might seem familiar if you've used node-based compositing software like Blender's Shader Editor or Nuke. If you're comfortable with visual programming, ComfyUI will feel natural. If not, there's a learning curve, but the flexibility it provides is worth the investment.
 
@@ -33,8 +33,6 @@ Unlike simpler interfaces that hide complexity, ComfyUI exposes the entire image
 **Workflow Reusability**
 
 One of ComfyUI's strongest features is the ability to save workflows as JSON files. Once you've created a workflow that produces the results you want, you can save it and reuse it later. You can also share workflows with others or load workflows shared by the community. This makes it easy to build up a library of proven workflows for different types of image generation.
-
-![Complex ComfyUI Workflow](/img/blender/forest_house.jpg)
 
 **Performance Optimization**
 
@@ -54,7 +52,7 @@ For those who prefer not to deal with local installation, cloud-based services l
 
 Working with nodes might seem intimidating at first, but it's actually quite intuitive once you understand the basics. You start with input nodes for your prompt and settings, connect them through processing nodes like model loaders and samplers, and end with output nodes that generate your image.
 
-![Example ComfyUI Workflow](/img/blender/donut.jpg)
+![Example ComfyUI Workflow](/img/comfyui-workflow2.jpg)
 
 The visual nature of the interface makes it easy to see how data flows through your workflow. You can experiment by adding nodes, modifying connections, and adjusting parameters until you achieve the desired results.
 
@@ -64,7 +62,7 @@ As an open-source project, ComfyUI benefits from active community development. N
 
 ## Integrating ComfyUI with Creative Workflows
 
-As someone who works extensively with both technical systems and creative projects like [Blender 3D artistry](/gallery/), I've found that ComfyUI fits perfectly into a hybrid creative workflow. The node-based approach in ComfyUI shares conceptual similarities with Blender's node system, making it easier for artists and technical professionals to adapt to both tools.
+As someone who works extensively with both technical systems and creative projects like [Blender 3D](/gallery/), I've found that ComfyUI fits perfectly into a hybrid creative workflow. The node-based approach in ComfyUI shares conceptual similarities with Blender's node system, making it easier for artists and technical professionals to adapt to both tools.
 
 ### Enhancing Blender Projects with AI
 

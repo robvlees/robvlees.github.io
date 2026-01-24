@@ -3,7 +3,7 @@ layout: post
 title:  "AI Image Generation Techniques and Best Practices | Expert Guide"
 date:   2026-01-23 10:00:00
 author: "R. Vleeshouwers"
-avatar: /img/me_1.jpg
+avatar: /img/me.png
 description: "Comprehensive guide to AI image generation techniques and best practices. Learn how to combine technical knowledge with artistic skills for optimal results with Stable Diffusion and ComfyUI."
 image: /img/blender/donut.jpg
 hero_image: /img/blender/donut.jpg

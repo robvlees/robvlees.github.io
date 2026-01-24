@@ -32,11 +32,6 @@
     - name: Table of Contents
       link: /docs/pages/table-of-contents/
 
-- label: Promo Pages
-  items:
-    - name: Creating a promo page
-      link: /docs/promo-pages/creating-a-promo-page/
-
 - label: Posts
   items:
     - name: Creating a Post
@@ -70,17 +65,4 @@
       link: /docs/page-components/video/
 
 
-- label: Products
-  items:
-    - name: Product Pages
-      link: /docs/products/product-pages/
-    - name: Product Reviews
-      link: /docs/products/product-reviews/
-    - name: Category Page
-      link: /docs/products/category-page/
-
-- label: Recipes
-  items:
-    - name: Recipes
-      link: /docs/recipes/recipes/
 

@@ -56,27 +56,33 @@ sass:
 cookie_policy: /cookie-policy/
 
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image: /img/Web-hero-background_01.jpg
+  
   -
     scope:
       path: ""
       type: "pages"
     values:
-      show_sidebar: true
+      show_sidebar: false
   -
     scope:
-      path: ""
-      type: "posts"
+      path: "blog"
+      type: "pages"
     values:
       author: "R. Vleeshouwers"
       author_image: /img/me_1.jpg
       layout: post
       image: /img/Logo.png
       show_sidebar: true
+  -
+    scope:
+      path: "tutorials"
+      type: "pages"
+    values:
+      author: "R. Vleeshouwers"
+      author_image: /img/me_1.jpg
+      layout: post
+      image: /img/Logo.png
+      show_sidebar: false
 
 markdown: kramdown
 highlighter: rouge
@@ -92,7 +98,7 @@ collections:
   tutorials:
     output: true
     layout: tutorial
-    show_sidebar: true
+    show_sidebar: false
     permalink: /tutorials/:name/
 
 

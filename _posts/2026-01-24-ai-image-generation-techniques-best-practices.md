@@ -9,7 +9,9 @@ image: /img/blender/donut.jpg
 hero_image: /img/blender/donut.jpg
 hero_darken: true
 published: true
-keywords: AI image generation, Stable Diffusion techniques, ComfyUI best practices, prompt engineering, AI art tips, machine learning, creative AI, image generation workflows
+keywords: AI image generation, Stable Diffusion techniques, ComfyUI best practices, prompt engineering, AI art tips, machine learning, creative AI, image generation workflows, LinkedIn article
+og_title: AI Image Generation Techniques and Best Practices - Expert Guide
+og_description: Comprehensive guide to AI image generation techniques and best practices. Learn how to combine technical knowledge with artistic skills for optimal results with Stable Diffusion and ComfyUI.
 ---
 
 As AI image generation tools become increasingly accessible, understanding the techniques and best practices for creating high-quality results is essential for both beginners and experienced users. Drawing from my experience with tools like ComfyUI and traditional 3D artistry with Blender, I'll share insights on how to maximize the potential of AI image generation while maintaining artistic integrity.

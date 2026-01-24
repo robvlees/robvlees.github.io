@@ -5,7 +5,9 @@ hero_height: is-fullwidth
 show_sidebar: false
 subtitle: Professional Background - Linux DevOps & Creative 3D Artistry
 description: Learn about Rob Vleeshouwers' professional background as a Linux DevOps Engineer with over two decades of experience in IT infrastructure and system administration, plus creative expertise in Blender 3D artistry.
-keywords: Linux DevOps Engineer, IT infrastructure, system administration, Blender 3D artist, professional background, technical expertise, creative artistry
+keywords: Linux DevOps Engineer, IT infrastructure, system administration, Blender 3D artist, professional background, technical expertise, creative artistry, LinkedIn profile, professional experience
+og_title: About Rob Vleeshouwers - Linux DevOps Engineer & Blender 3D Artist
+og_description: Professional background of Rob Vleeshouwers with over two decades of experience in Linux DevOps, IT infrastructure, system administration, and Blender 3D artistry. Multilingual IT professional.
 ---
 
 <img style="float:right;border-radius:50%;width:120px;padding:6px" src="/img/me_1.jpg" alt="Rob Vleeshouwers" />

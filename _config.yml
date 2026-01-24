@@ -105,6 +105,13 @@ jekyll-seo-tag:
           card: summary
           site: "@robvlees"
           creator: "@robvlees"
+        og:
+          title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
+          description: "Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry."
+          image: "/img/Logo.png"
+          url: "{{ site.url }}"
+          type: website
+          site_name: "Rob Vleeshouwers Portfolio"
         
 
 facebook:

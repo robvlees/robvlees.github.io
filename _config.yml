@@ -55,8 +55,7 @@ sass:
 
 cookie_policy: /cookie-policy/
 
-defaults:
-  
+defaults:  
   -
     scope:
       path: ""
@@ -69,9 +68,8 @@ defaults:
       type: "pages"
     values:
       author: "R. Vleeshouwers"
-      author_image: /img/me_1.jpg
+      author_image: /img/me.jpg
       layout: post
-      image: /img/Logo.png
       show_sidebar: true
   -
     scope:
@@ -79,9 +77,8 @@ defaults:
       type: "pages"
     values:
       author: "R. Vleeshouwers"
-      author_image: /img/me_1.jpg
-      layout: post
-      image: /img/Logo.png
+      author_image: /img/me.jpg
+      layout: tutorial
       show_sidebar: false
 
 markdown: kramdown

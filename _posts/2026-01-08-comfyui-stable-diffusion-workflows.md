@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion"
 date:   2026-01-08 10:50:07
 author: "R. Vleeshouwers"
-avatar: /img/me_1.jpg
+avatar: /img/me.jpg
 description: "Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals."
 image: /img/Logo.png
 hero_image: /img/Logo.png

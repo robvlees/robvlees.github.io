@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I use a static site generator"
 date:   2025-06-07 10:50:07
-avatar: /img/me_1.jpg
+avatar: /img/me.jpg
 description: "There are many ways to make a website, but what about static site generators"
 image: /img/static-site-generator.jpg
 hero_image: /img/static-site-generator.jpg

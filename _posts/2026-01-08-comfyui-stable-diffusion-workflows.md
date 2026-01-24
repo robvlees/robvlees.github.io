@@ -2,12 +2,14 @@
 layout: post
 title:  "Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion"
 date:   2026-01-08 10:50:07
+author: "R. Vleeshouwers"
 avatar: /img/me_1.jpg
-description: "Explore ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding"
+description: "Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals."
 image: /img/Logo.png
 hero_image: /img/Logo.png
 hero_darken: true
 published: true
+keywords: ComfyUI tutorial, Stable Diffusion, AI image generation, node-based interface, visual workflows, AI art tools, machine learning, creative AI
 ---
 
 If you're interested in AI image generation and have experimented with Stable Diffusion, you've probably encountered various web interfaces and tools. One that stands out for its flexibility and power is ComfyUI - an open-source, node-based graphical user interface that lets you create complex AI image generation workflows visually, without writing code.

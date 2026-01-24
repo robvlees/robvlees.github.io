@@ -1,10 +1,10 @@
 # Site Settings
 lang: en
-title: Rob Vleeshouwers
-tagline: Welcome to my web site
+title: Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist
+tagline: Linux DevOps Engineer & Blender 3D Artist | Technical Expertise & Creative Portfolio
 email: robvlees@gmail.com
 description: >
-  Welcome to my Personal web site
+  Rob Vleeshouwers - Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Explore technical projects and creative 3D artwork.
 baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
@@ -73,7 +73,7 @@ defaults:
       type: "posts"
     values:
       author: "R. Vleeshouwers"
-      author_image: /img/me.jpg
+      author_image: /img/me_1.jpg
       layout: post
       image: /img/Logo.png
       show_sidebar: true
@@ -97,10 +97,14 @@ google:
 
 jekyll-seo-tag:
       defaults:
-        title: "Rob's web site"
-        description: "Welcome to my web site"
+        title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
+        description: "Professional portfolio of Rob Vleeshouwers - Linux DevOps Engineer with expertise in IT infrastructure, security implementation, and Blender 3D artistry. Technical projects and creative 3D artwork."
         image: "/img/Logo.png"
         url: "{{ site.url }}"
+        twitter:
+          card: summary
+          site: "@robvlees"
+          creator: "@robvlees"
         
 
 facebook:
@@ -112,4 +116,5 @@ social:
   facebook: https://www.facebook.com/rob.vleeshouwers
   github: https://github.com/robvlees
   vimeo: https://vimeo.com/user5783542
+  
   

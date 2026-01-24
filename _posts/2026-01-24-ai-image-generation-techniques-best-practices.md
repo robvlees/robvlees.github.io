@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AI Image Generation Techniques and Best Practices"
-date:   2026-01-24 10:00:00
+date:   2026-01-23 10:00:00
 avatar: /img/me_1.jpg
 description: "Explore effective techniques and best practices for AI image generation, combining technical knowledge with artistic skills for optimal results"
 image: /img/blender/donut.jpg

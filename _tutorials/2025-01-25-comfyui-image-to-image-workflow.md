@@ -275,4 +275,3 @@ You can use parentheses to give more weight to certain words.
 - **Iterate:** Run the workflow multiple times with slight changes to the prompt to see what works best.
 
 By mastering prompt modification, you can unlock endless creative possibilities with ComfyUI.
-```

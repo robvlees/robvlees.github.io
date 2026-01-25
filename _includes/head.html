@@ -1,4 +1,12 @@
 <head>
+    <!-- Prism Dark Theme -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css" rel="stylesheet" />
+
+    <!-- YOUR TERMINAL THEME (CRITICAL - MUST BE AFTER prism-dark) -->
+    <!-- link href="/assets/css/prism.css" rel="stylesheet" /-->
+    <!-- Prism JS (REQUIRED for syntax highlighting!) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}

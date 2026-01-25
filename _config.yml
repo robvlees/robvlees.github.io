@@ -5,7 +5,6 @@ tagline: Linux DevOps Engineer & Blender 3D Artist | Technical Expertise & Creat
 email: robvlees@gmail.com
 description: >
   Rob Vleeshouwers - Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Explore technical projects and creative 3D artwork.
-baseurl:
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
 favicon: /img/favicon-32x32.png
@@ -82,7 +81,7 @@ defaults:
       show_sidebar: false
 
 markdown: kramdown
-highlighter: rouge
+highlighter: prism
 
 footer_menu: footer_menu
 

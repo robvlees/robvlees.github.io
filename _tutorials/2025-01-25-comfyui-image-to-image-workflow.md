@@ -31,12 +31,14 @@ ComfyUI is a powerful, node-based interface for Stable Diffusion models. Here’
 - Git installed.
 
 **Step 1: Install ComfyUI**
-```bash
-Open a terminal (or command prompt) and run the following commands:
 
-echo "Hello Terminal!"  # This comment is gray
-ls -la                 # Green command (valid)
-<code class="error">rm -rf /</code>  # RED error text!
+Open a terminal (or command prompt) and run the following commands:
+```bash
+# Clone the ComfyUI repository from GitHub
+git clone https://github.com/comfyanonymous/ComfyUI.git
+
+# Navigate into the ComfyUI directory
+cd ComfyUI
 ```
 
 **Step 2: Install Dependencies**
@@ -65,12 +67,14 @@ ComfyUI needs several models to function. You must download them manually.
     - Place the downloaded file in the `models/vae` folder within your ComfyUI directory.
 
 **Step 4: Launch ComfyUI**
-
-Run the following command to start ComfyUI:
+```bash
+# Start ComfyUI 
+python main.py --listen "127.0.0.1:8188" --listen-port 8188
+```
 
 ```bash
 # Start ComfyUI
-python main.py --listen 127.0.0.1:8188 --listen-port 8188
+python main.py --listen "127.0.0.1:8188" --listen-port 8188
 ```
 
 - This will start ComfyUI on your local machine at `http://127.0.0.1:8188`.

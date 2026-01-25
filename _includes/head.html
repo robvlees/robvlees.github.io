@@ -1,12 +1,41 @@
 <head>
-    <!-- Prism Dark Theme -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css" rel="stylesheet" />
-
-    <!-- YOUR TERMINAL THEME (CRITICAL - MUST BE AFTER prism-dark) -->
-    <!-- link href="/assets/css/prism.css" rel="stylesheet" /-->
     <!-- Prism JS (REQUIRED for syntax highlighting!) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/components/prism-bash.min.js"></script>
+    <!-- Prism Dark Theme -->
+    <link href="/assets/css/prism.css" rel="stylesheet" /-->
+    <!-- FIX PRISM BASH LEXER BUG FOR IP:PORT -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof Prism !== 'undefined') {
+        // Patch the Bash lexer to handle IP:PORT correctly
+        Prism.languages.bash = Object.assign({}, Prism.languages.bash, {
+            'string': [
+            { 
+                pattern: /"(?:\\[\s\S]|[^"\\])*"/,
+                greedy: true,
+                inside: { 'punctuation': /^"|"$|\\./ }
+            },
+            { 
+                pattern: /'(?:\\[\s\S]|[^'\\])*'/,
+                greedy: true,
+                inside: { 'punctuation': /^'|'$|\\./ }
+            },
+            // ADD THIS LINE TO FIX IP:PORT
+            {
+                pattern: /(\b--listen\s+)([^\s]+):([0-9]+)/,
+                lookbehind: true,
+                inside: {
+                'param': /\b--listen\b/,
+                'ip': /^[^:]+/,
+                'port': /:[0-9]+/
+                }
+            }
+            ]
+        });
+        }
+    });
+    </script>
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}

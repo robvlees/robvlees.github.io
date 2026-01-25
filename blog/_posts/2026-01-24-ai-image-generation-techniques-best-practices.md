@@ -9,6 +9,14 @@ image: /img/comfyui-workflow1.jpg
 hero_image: /img/comfyui-workflow1.jpg
 hero_darken: true
 published: true
+tags: 
+  - "AI image generation"
+  -  "Stable Diffusion"
+  -  "ComfyUI"
+  -  "prompt engineering"
+  -  "creative technology"
+  -  "machine learning"
+  -  "artistic workflow"
 keywords: AI image generation, Stable Diffusion techniques, ComfyUI best practices, prompt engineering, AI art tips, machine learning, creative AI, image generation workflows, LinkedIn article
 og_title: AI Image Generation Techniques and Best Practices - Expert Guide
 og_description: Comprehensive guide to AI image generation techniques and best practices. Learn how to combine technical knowledge with artistic skills for optimal results with Stable Diffusion and ComfyUI.

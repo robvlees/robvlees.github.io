@@ -112,6 +112,5 @@ For creative professionals who work with tools like Blender, ComfyUI offers a na
 If you're interested in exploring AI image generation beyond basic interfaces, ComfyUI is definitely worth investigating. The open-source nature, combined with its powerful workflow system, makes it a compelling option for anyone serious about AI-generated imagery.
 
 **Related Posts:**
-- [Blender 3D Artistry: From Concept to Final Render](/gallery/)
-- [Stable Diffusion: Getting Started Guide](/blog/stable-diffusion-guide/)
-- [AI Image Generation Techniques and Best Practices](/2026/01/23/ai-image-generation-techniques-best-practices/)
+- [Blender 3D: From Concept to Final Render](/gallery/)
+- [AI Image Generation Techniques and Best Practices](/blog/2026/01/23/ai-image-generation-techniques-best-practices/)

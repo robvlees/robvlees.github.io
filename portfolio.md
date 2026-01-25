@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Professional Portfolio | Linux DevOps & Blender 3D Artistry
+title: Professional Portfolio | Linux DevOps & Blender 3D
 subtitle: Technical Projects & Creative 3D Artwork Showcase
 description: Explore Rob Vleeshouwers' professional portfolio featuring expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Technical projects and creative artwork gallery.
 keywords: Linux DevOps portfolio, IT infrastructure projects, security implementation, Blender 3D artwork, technical projects, creative portfolio, system administration, 3D art gallery, LinkedIn portfolio
-og_title: Rob Vleeshouwers - Professional Portfolio | Linux DevOps & Blender 3D Artistry
+og_title: Rob Vleeshouwers - Professional Portfolio | Linux DevOps & Blender 3D
 og_description: Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Technical projects and creative artwork gallery.
 show_sidebar: false
 hero_image: /img/Web-hero-background_01.jpg
@@ -20,7 +20,7 @@ As a Linux DevOPS Engineer, I specialize in designing and implementing robust IT
 - **Integration Solutions**: Connecting diverse computing platforms through effective APIs and middleware
 - **Open Source Advocacy**: Promoting accessible, community-driven software solutions
 
-## Blender Artistry
+## Blender 3D Artistry
 
 In my creative time, I explore the full 3D pipeline using Blender, including:
 - Modeling and sculpting

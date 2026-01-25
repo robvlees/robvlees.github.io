@@ -148,4 +148,4 @@ As AI technology continues to evolve, staying informed about new techniques and 
 
 **Related Posts:**
 - [Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion](/2026/01/08/comfyui-stable-diffusion-workflows/)
-- [Blender 3D Artistry: From Concept to Final Render](/gallery/)
+- [Blender 3D: From Concept to Final Render](/gallery/)

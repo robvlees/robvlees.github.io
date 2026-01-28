@@ -12,6 +12,11 @@ tags:
   - linux
   - devops
   - system-administration
+  - command-line
+  - file-system
+  - process-management
+  - security
+  - administration
 summary: A comprehensive guide to getting started with Linux system administration, covering essential commands, user management, file permissions, and system monitoring best practices with practical examples for IT infrastructure and security implementation.
 ---
 

@@ -3,6 +3,8 @@ title: Getting Started with Linux System Administration
 layout: tutorial
 date: 2025-02-23 10:00:00 +0000
 description: A comprehensive guide to getting started with Linux system administration, covering essential commands and best practices.
+avatar: /img/me.jpg
+author: "R. Vleeshouwers"
 featured: true
 tags:
   - linux

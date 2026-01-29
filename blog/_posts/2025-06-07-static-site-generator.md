@@ -8,6 +8,16 @@ image: /img/static-site-generator.jpg
 hero_image: /img/static-site-generator.jpg
 hero_darken: true
 published: true
+tags: 
+  - "static site generator" 
+  - Jekyll
+  - "CMS alternatives" 
+  - "website performance" 
+  - "version control" 
+  - "web development" 
+  - "website security" 
+  - "HTML generation" 
+  - "frontend development"
 ---
 
 There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators?

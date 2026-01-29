@@ -5,8 +5,8 @@ date:   2026-01-08 10:50:07
 author: "R. Vleeshouwers"
 avatar: /img/me.jpg
 description: "Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals."
-image: /img/comfyui-workflow1.jpg
-hero_image: /img/comfyui-workflow1.jpg
+image: /img/comfyui.png
+hero_image: /img/comfyui.png
 hero_darken: true
 published: true
 keywords: ComfyUI tutorial, Stable Diffusion, AI image generation, node-based interface, visual workflows, AI art tools, machine learning, creative AI, LinkedIn article

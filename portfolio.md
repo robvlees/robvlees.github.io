@@ -9,6 +9,7 @@ og_description: Professional portfolio showcasing expertise in Linux DevOps engi
 show_sidebar: false
 hero_image: /img/Web-hero-background_01.jpg
 hero_darken: true
+tags: Linux, DevOps, IT infrastructure, security, system administration, automation, open source, 3D art, blender, modeling, sculpting, animation, rendering, creative art
 ---
 
 ## Technical Expertise
@@ -20,7 +21,7 @@ As a Linux DevOPS Engineer, I specialize in designing and implementing robust IT
 - **Integration Solutions**: Connecting diverse computing platforms through effective APIs and middleware
 - **Open Source Advocacy**: Promoting accessible, community-driven software solutions
 
-## Artistry
+## Digital Creator
 
 In my creative time, I explore the full 3D pipeline, including:
 - Modeling and sculpting

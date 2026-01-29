@@ -10,7 +10,7 @@ og_title: About Rob Vleeshouwers - Linux DevOps Engineer & Blender 3D Artist
 og_description: Professional background of Rob Vleeshouwers with over two decades of experience in Linux DevOps, IT infrastructure, system administration, and Blender 3D artistry. Multilingual IT professional.
 ---
 
-<img style="float:right;border-radius:50%;width:120px;padding:6px" src="/img/me_1.jpg" alt="Rob Vleeshouwers" />
+<img style="float:right;border-radius:50%;width:120px;padding:6px" src="/img/me.jpg" alt="Rob Vleeshouwers" />
 
 <span style="float:right;padding:6px"> 
   robvlees@gmail.com <br> mobile: +41 (0) 79 694 65 85 <br> Nationality: Dutch <br><i class="fa-brands fa-linkedin"></i>  <a href="https://www.linkedin.com/in/vleeshouwers" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -21,7 +21,7 @@ og_description: Professional background of Rob Vleeshouwers with over two decade
 
 ## Personal Introduction
 
-Hello! I'm Rob Vleeshouwers, a passionate Linux System Engineer with over two decades of experience in IT infrastructure and system administration. My journey began in the early 1990s as a technical support assistant, working with diverse computing platforms including IBM AS/400, Unix systems, and Windows environments. What started as a technical career has evolved into a blend of professional expertise and creative expression through 3D art and design using Blender.
+Hello! I'm Rob Vleeshouwers, a passionate Linux System Engineer with over three decades of experience in IT infrastructure and system administration. My journey began in the early 1990s as a technical support assistant, working with diverse computing platforms including IBM AS/400, Unix systems, and Windows environments. What started as a technical career has evolved into a blend of professional expertise and creative expression through 3D art and design using Blender.
 
 ## Professional Journey
 

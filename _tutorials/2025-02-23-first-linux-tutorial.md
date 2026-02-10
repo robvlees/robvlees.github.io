@@ -4,10 +4,11 @@ layout: tutorial
 date: 2025-02-23 10:00:00 +0000
 description: A comprehensive guide to getting started with Linux system administration, covering essential commands, user management, file permissions, and system monitoring with practical examples.
 avatar: /img/me.jpg
-author: "R. Vleeshouwers"
+image: /img/linux-22617.png
+hero_image: /img/linux-22617.png
 hero_darken: true
 hero_height: is-fullwidth
-featured: true
+published: true
 tags:
   - linux
   - devops

@@ -66,7 +66,7 @@ defaults:
       path: "blog"
       type: "pages"
     values:
-      author: "R. Vleeshouwers"
+      author: "Rob Vleeshouwers"
       author_image: /img/me.jpg
       layout: post
       show_sidebar: true
@@ -75,7 +75,7 @@ defaults:
       path: "tutorials"
       type: "pages"
     values:
-      author: "R. Vleeshouwers"
+      author: "Rob Vleeshouwers"
       author_image: /img/me.jpg
       layout: tutorial
       show_sidebar: false

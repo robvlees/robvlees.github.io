@@ -98,6 +98,9 @@ collections:
     permalink: /tutorials/:name/
 
 
+# Google Analytics
+google_analytics: G-703WPBYY61
+
 #google_analytics: UA-code-here
 google:
       tag_manager:
@@ -110,7 +113,7 @@ jekyll-seo-tag:
         image: "/img/Logo.png"
         url: "{{ site.url }}"
         twitter:
-          card: summary
+          card: summary_large_image
           site: "@robvlees"
           creator: "@robvlees"
         og:
@@ -120,6 +123,16 @@ jekyll-seo-tag:
           url: "{{ site.url }}"
           type: website
           site_name: "Rob Vleeshouwers Portfolio"
+        author:
+          name: "Rob Vleeshouwers"
+          twitter: "@robvlees"
+        social:
+          name: "Rob Vleeshouwers"
+          links:
+            - https://www.linkedin.com/in/vleeshouwers/
+            - https://www.facebook.com/rob.vleeshouwers
+            - https://github.com/robvlees
+            - https://vimeo.com/user5783542
         
 
 facebook:

@@ -3,9 +3,9 @@ title: Getting Started with Linux System Administration - Complete Guide
 layout: tutorial
 date: 2025-02-23 10:00:00 +0000
 description: Learn Linux system administration fundamentals including commands, user management, file permissions, and process monitoring. Beginner-friendly tutorial with practical examples.
-avatar: /img/me.jpg
-image: /img/linux-22617.png
-hero_image: /img/linux-22617.png
+avatar: /images/me.jpg
+image: /images/linux-22617.png
+hero_image: /images/linux-22617.png
 hero_darken: true
 hero_height: is-fullwidth
 published: true

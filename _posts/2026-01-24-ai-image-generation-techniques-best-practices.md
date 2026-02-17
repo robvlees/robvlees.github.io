@@ -3,10 +3,10 @@ layout: post
 title:  "AI Image Generation Techniques and Best Practices"
 date:   2026-01-23 10:00:00
 author: "R. Vleeshouwers"
-avatar: /img/me.jpg
+avatar: /images/me.jpg
 description: "Comprehensive guide to AI image generation techniques and best practices. Learn how to combine technical knowledge with artistic skills for optimal results with Stable Diffusion and ComfyUI."
-image: /img/comfyui-workflow1.jpg
-hero_image: /img/comfyui-workflow1.jpg
+image: /images/comfyui-workflow1.jpg
+hero_image: /images/comfyui-workflow1.jpg
 hero_darken: true
 published: true
 tags: 

@@ -3,10 +3,10 @@ title: Blender 3D Modeling for Beginners
 layout: tutorial
 date: 2025-01-23 14:30:00 +0000
 description: Learn the fundamentals of Blender 3D modeling, from basic tools to creating your first 3D scene.
-avatar: /img/me.jpg
+avatar: /images/me.jpg
 author: "R. Vleeshouwers"
-image: /img/blender/donut.jpg
-hero_image: /img/blender/donut.jpg
+image: /images/blender/donut.jpg
+hero_image: /images/blender/donut.jpg
 hero_darken: true
 hero_height: is-fullwidth
 featured: true

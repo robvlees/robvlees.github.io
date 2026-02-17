@@ -5,9 +5,9 @@ title:  Getting Started with ComfyUI A Powerful Node-Based Interface for Stable 
 date:   2026-01-08 10:50:07
 author: "R. Vleeshouwers"
 description: Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals.
-avatar: /img/me.jpg
-image: /img/comfyui.png
-hero_image: /img/comfyui.png
+avatar: /images/me.jpg
+image: /images/comfyui.png
+hero_image: /images/comfyui.png
 hero_darken: true
 hero_height: is-fullwidth
 published: true
@@ -29,7 +29,7 @@ summary: Learn how to use ComfyUI, an open-source node-based GUI for creating ad
 
 This tutorial will guide you through the process of transforming a regular photograph into a vibrant, comic-book-style pop art image using the powerful ComfyUI interface. The workflow demonstrated is a "context" or "style transfer" setup, where an existing image (the reference) provides the artistic style for a new image (the subject).
 
-![alt text](/img/comfyui-workflow1.jpg)
+![alt text](/images/comfyui-workflow1.jpg)
 
 ## Understanding the Goal
 

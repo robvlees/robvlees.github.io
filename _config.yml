@@ -7,7 +7,7 @@ description: >
   Rob Vleeshouwers - Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Explore technical projects and creative 3D artwork.
 url: "https://www.vleeshouwers.ch"
 permalink: pretty
-favicon: /img/favicon-32x32.png
+favicon: /images/favicon-32x32.png
 
 # Build settings
 sass:

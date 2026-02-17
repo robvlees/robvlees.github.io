@@ -705,6 +705,106 @@ em {
   line-height: 1.6;
 }
 
+/* ============================================
+   Image Display Classes
+   ============================================ */
+
+/* Image Container */
+.post-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  caption-side: bottom;
+}
+
+.post-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-md);
+}
+
+/* Size Classes */
+.img-small {
+  max-width: 300px;
+}
+
+.img-medium {
+  max-width: 500px;
+}
+
+.img-large {
+  max-width: 800px;
+}
+
+.img-full {
+  max-width: 100%;
+}
+
+/* Alignment Classes */
+.img-left {
+  align-items: flex-start;
+}
+
+.img-center {
+  align-items: center;
+}
+
+.img-right {
+  align-items: flex-end;
+}
+
+/* Style Modifiers */
+.img-rounded {
+  border-radius: var(--radius-lg);
+}
+
+.img-shadow {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Hover Effects */
+.img-hover:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-xl);
+}
+
+.img-zoom {
+  cursor: pointer;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.img-zoom:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Image Captions */
+figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+/* Modal Lightbox for Images */
+.img-zoom-target {
+  cursor: pointer;
+}
+
+.img-zoom-target:hover {
+  transform: scale(1.02);
+}
+
+/* ============================================
+   About Page
+   ============================================ */
+
 /* About Page */
 .about-content {
   max-width: 800px;

@@ -1,0 +1,47 @@
+{% comment %}
+  Image Display Include for Jekyll Posts
+  Usage: {% include image.html src="/path/to/image.jpg" alt="Description" size="medium" align="center" caption="Caption text" rounded="true" shadow="true" zoom="true" %}
+  
+  Parameters:
+  - src: (required) Path to the image
+  - alt: (required) Alt text for the image
+  - size: (optional) small (300px), medium (500px), large (800px), full (100%) - default: full
+  - align: (optional) left, center, right - default: center
+  - caption: (optional) Caption text to display below image
+  - rounded: (optional) true/false - default: false
+  - shadow: (optional) true/false - default: true
+  - zoom: (optional) true/false - default: false
+{% endcomment %}
+
+{% assign image_size = include.size | default: "full" %}
+{% assign image_align = include.align | default: "center" %}
+{% assign image_rounded = include.rounded | default: false %}
+{% assign image_shadow = include.shadow | default: true %}
+{% assign image_zoom = include.zoom | default: false %}
+
+{% assign size_class = "" %}
+{% case image_size %}
+  {% when "small" %}{% assign size_class = "img-small" %}
+  {% when "medium" %}{% assign size_class = "img-medium" %}
+  {% when "large" %}{% assign size_class = "img-large" %}
+  {% when "full" %}{% assign size_class = "img-full" %}
+{% endcase %}
+
+{% assign align_class = "" %}
+{% case image_align %}
+  {% when "left" %}{% assign align_class = "img-left" %}
+  {% when "center" %}{% assign align_class = "img-center" %}
+  {% when "right" %}{% assign align_class = "img-right" %}
+{% endcase %}
+
+{% assign classes = "post-image " | append: size_class | append: " " | append: align_class %}
+{% if image_rounded %}{% assign classes = classes | append: "img-rounded" %}{% endif %}
+{% unless image_shadow == false %}{% assign classes = classes | append: "img-shadow" %}{% endunless %}
+{% if image_zoom %}{% assign classes = classes | append: "img-zoom" %}{% endif %}
+
+<figure class="{{ classes | strip | replace: '  ', ' ' }}">
+  <img src="{{ include.src }}" alt="{{ include.alt }}" {% if image_zoom %}class="img-zoom-target"{% endif %}>
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

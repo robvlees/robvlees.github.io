@@ -24,8 +24,6 @@ tags:
 summary: Learn the fundamentals of Blender 3D modeling, from basic tools to creating your first 3D scene. This tutorial covers the basics of 3D modeling in Blender including interface navigation and creating simple shapes.
 ---
 
-# Blender 3D Modeling for Beginners
-
 Blender is a powerful, free, and open-source 3D creation suite that has become increasingly popular among artists and designers. This tutorial will guide you through the basics of 3D modeling in Blender, from setting up your workspace to creating your first 3D object.
 
 ## Installation Instructions

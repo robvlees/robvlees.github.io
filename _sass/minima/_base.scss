@@ -1,4 +1,3 @@
-
 /**
  * Reset some basic elements
  */
@@ -108,8 +107,8 @@ a {
   text-decoration: none;
 
   &:visited {
-    // Use darken() for color adjustment
-    color: darken($brand-color, 15%);
+    // Use color.adjust() for color adjustment
+    color: color.adjust($brand-color, $lightness: -15%);
   }
 
   &:hover {
@@ -234,24 +233,24 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  // Use lighten() for color adjustment
-  color: lighten($text-color, 18%);
+  // Use color.adjust() for color adjustment
+  color: color.adjust($text-color, $lightness: 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {
     &:nth-child(even) {
-      // Use lighten() for color adjustment
-      background-color: lighten($grey-color-light, 6%);
+      // Use color.adjust() for color adjustment
+      background-color: color.adjust($grey-color-light, $lightness: 6%);
     }
   }
   th, td {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
   }
   th {
-    // Use lighten()/darken() for color adjustments
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    // Use color.adjust() for color adjustments
+    background-color: color.adjust($grey-color-light, $lightness: 3%);
+    border: 1px solid color.adjust($grey-color-light, $lightness: -4%);
+    border-bottom-color: color.adjust($grey-color-light, $lightness: -12%);
   }
   td {
     border: 1px solid $grey-color-light;

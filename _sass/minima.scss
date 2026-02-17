@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+// Import sass:color module for color functions
+@use "sass:color";
+
 // Import custom variables first (with fixed color functions)
 @import
   "minima/variables",

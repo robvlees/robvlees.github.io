@@ -34,7 +34,7 @@ Linux system administration skills are highly valued in the tech industry, espec
 - Monitor system performance and security
 - Maintain reliable IT infrastructure
 
-## Understanding Linux File System Structure
+  ## Understanding Linux File System Structure
 
 The Linux file system follows a hierarchical structure starting from the root directory (/). Understanding this structure is essential for navigation and system administration. Key directories include:
 
@@ -340,7 +340,8 @@ Each category can have one or more of these three permissions:
 - **write (w)**: Ability to modify file content or create/delete files in a directory
 - **execute (x)**: Ability to execute a file or traverse a directory
 
-Permissions can be represented in two formats:
+  Permissions can be represented in two formats:
+
 ```bash
 # Numeric (octal) format
 $ ls -l file.txt
@@ -586,4 +587,4 @@ As you progress, consider learning advanced topics such as:
 - Containerization with Docker
 - Cloud infrastructure management
 
-This comprehensive guide provides the foundational knowledge needed to begin your Linux system administration journey. With consistent practice and hands-on experience, you'll be well-equipped to manage Linux systems confidently and efficiently.
+  This comprehensive guide provides the foundational knowledge needed to begin your Linux system administration journey. With consistent practice and hands-on experience, you'll be well-equipped to manage Linux systems confidently and efficiently.

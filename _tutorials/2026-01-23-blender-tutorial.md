@@ -37,6 +37,7 @@ Before you can start modeling, you'll need to install Blender on your computer. 
 3. Select the version appropriate for your operating system
 4. Download the installer file
 
+<br>
 ### Installing Blender
 
 **Windows:**
@@ -65,7 +66,7 @@ Before we dive into modeling, it's important to understand Blender's interface. 
 - **Outliner**: Shows all the objects in your current scene
 - **Node Editor**: For creating shaders and materials
 
-## Basic Modeling Concepts
+  ## Basic Modeling Concepts
 
 In Blender, modeling involves manipulating mesh data to create 3D shapes. The fundamental building block is the **mesh**, which consists of:
 
@@ -73,13 +74,14 @@ In Blender, modeling involves manipulating mesh data to create 3D shapes. The fu
 2. **Edges** - Lines connecting vertices
 3. **Faces** - Surfaces defined by edges
 
-## Creating Your First Object
+  ## Creating Your First Object
 
 Let's start with a simple cube:
 1. Press `Shift + A` to open the Add menu
 2. Select "Mesh" → "Cube"
 3. You'll now see a cube in your 3D viewport
 
+<br>
 ### Basic Object Manipulation Workflow
 
 Once you have your object, you can begin transforming it using the following workflow:
@@ -100,7 +102,7 @@ To continue learning Blender:
 - Try working with materials and lighting
 - Look into Blender's extensive documentation and community resources
 
-### Common Modeling Workflow Example
+  ### Common Modeling Workflow Example
 
 Here's a typical workflow for creating a simple 3D model in Blender:
 
@@ -108,12 +110,12 @@ Here's a typical workflow for creating a simple 3D model in Blender:
 - Start with a primitive object (cube, sphere, etc.)
 - Use transformations to roughly shape your object
 
-**Step 2: Detail Addition**
+  **Step 2: Detail Addition**
 - Use the Subdivision Surface modifier for smoother geometry
 - Apply additional modifiers as needed
 - Use loop cuts and edge loops for precise control
 
-**Step 3: Final Touches**
+  **Step 3: Final Touches**
 - Add materials and textures
 - Position lights appropriately
 - Render your scene

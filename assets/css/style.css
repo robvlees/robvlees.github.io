@@ -1258,14 +1258,14 @@ figcaption {
     display: block;
     position: absolute;
     left: 1.5rem;
-    top: 55%;
+    top: 60%;
     transform: translateY(-50%);
   }
 
   .theme-toggle {
     position: absolute;
     right: 1.5rem;
-    top: 55%;
+    top: 60%;
     transform: translateY(-50%);
   }
 

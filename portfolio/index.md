@@ -3,7 +3,6 @@ layout: page
 title: Portfolio
 subtitle: Selected projects and work samples
 ---
-
 ## Technical Expertise
 
 As a Linux DevOPS Engineer, I specialize in designing and implementing robust IT infrastructures with a focus on security and integration. My work spans across:
@@ -13,7 +12,7 @@ As a Linux DevOPS Engineer, I specialize in designing and implementing robust IT
 - **Integration Solutions**: Connecting diverse computing platforms through effective APIs and middleware
 - **Open Source Advocacy**: Promoting accessible, community-driven software solutions
 
-## Blender 3D Artistry
+  ## Blender 3D Artistry
 
 In my creative time, I explore the full 3D pipeline using Blender, including:
 - Modeling and sculpting
@@ -30,7 +29,7 @@ My portfolio showcases both technical projects and artistic creations that demon
 - Security configuration frameworks
 - Cross-platform integration solutions
 
-### Artistic Creations
+  ### Artistic Creations
 - Landscape and environment renders
 - Character and object modeling
 - Complex animation sequences

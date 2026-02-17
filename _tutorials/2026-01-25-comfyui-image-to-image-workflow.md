@@ -29,7 +29,7 @@ summary: Learn how to use ComfyUI, an open-source node-based GUI for creating ad
 
 This tutorial will guide you through the process of transforming a regular photograph into a vibrant, comic-book-style pop art image using the powerful ComfyUI interface. The workflow demonstrated is a "context" or "style transfer" setup, where an existing image (the reference) provides the artistic style for a new image (the subject).
 
-![alt text](/images/comfyui-workflow1.jpg)
+![alt text](/images/comfyui-workflow1.jpg){:.img-full .img-center .img-shadow}
 
 ## Understanding the Goal
 

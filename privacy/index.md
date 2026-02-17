@@ -16,12 +16,13 @@ When you visit our website, we collect the following types of information:
 - **Name and email address**: When you subscribe to our newsletter or contact us through the contact form
 - **Cookie preferences**: Your consent choices regarding cookies are stored in your browser's localStorage
 
-#### 2. Automatic Data Collection**
+
+  #### 2. Automatic Data Collection
 - **IP address**: Collected automatically when you visit our site
 - **Browser information**: Type, version, and settings
 - **Usage data**: Pages visited, time spent on each page, and navigation patterns
 
-### Cookies and Tracking Technologies
+  ### Cookies and Tracking Technologies
 
 We use cookies and similar tracking technologies to enhance your browsing experience. Here's a breakdown of the cookies we use:
 
@@ -30,11 +31,11 @@ These cookies are necessary for the website to function properly:
 - **Theme Preference**: Stores your dark/light mode preference (stored in localStorage, not as a cookie)
 - **Session Management**: Maintains your session while browsing
 
-#### Functional Cookies
+  #### Functional Cookies
 These cookies improve the functionality of our website:
 - **User Preferences**: Remembers your settings and preferences
 
-### Third-Party Services
+  ### Third-Party Services
 
 Our website may use third-party services that may collect information about your usage:
 
@@ -43,7 +44,7 @@ Our website may use third-party services that may collect information about your
   - Collected data: IP address, browser information, pages visited, time spent on site
   - Data is anonymized and not linked to individual users
 
-### How We Use Your Information
+  ### How We Use Your Information
 
 The information we collect is used to:
 - Provide and maintain our website
@@ -52,20 +53,20 @@ The information we collect is used to:
 - Personalize content and features
 - Analyze usage patterns to improve our services
 
-### Data Retention
+  ### Data Retention
 
 - Cookie preferences: Stored in your browser's localStorage until you clear them or change your preferences
 - Contact form submissions: Retained as long as necessary to respond to your inquiry
 - Analytics data: Retained by Google Analytics according to their data retention policies
 
-### Data Protection
+  ### Data Protection
 
 We implement appropriate technical and organizational measures to protect your personal data against:
 - Unauthorized access
 - Alteration, loss, or destruction
 - Accidental violation of external security measures
 
-### Your Rights
+  ### Your Rights
 
 You have the right to:
 - Access your personal data
@@ -74,7 +75,7 @@ You have the right to:
 - Object to processing of your data
 - Data portability
 
-### Changes to This Policy
+  ### Changes to This Policy
 
 We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page with an updated revision date.
 

@@ -3,6 +3,7 @@ layout: post
 title: "Getting Started with Jekyll"
 date: 2024-01-20
 author: Your Name
+published: false
 categories:
   - Tutorial
   - Jekyll

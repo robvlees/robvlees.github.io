@@ -43,8 +43,9 @@ subtitle: Blender 3D Artwork
     <img src="{{ '/images/blender/apple_blossom.jpg' | relative_url }}" alt="Apple Blossom final render">
   </div>
 </div>
+<br>
 
-## About These Renders
+### About These Renders
 
 All images were created using <a href="https://blender.org" target="_blank" rel="noopener noreferrer">Blender 3D</a> software, covering the entire 3D pipeline including modeling, sculpting, animation, simulation, rendering, compositing, motion tracking, and video editing.
 

@@ -1258,6 +1258,11 @@ figcaption {
     display: block;
   }
 
+  /* Hide regular navigation on mobile */
+  .site-nav {
+    display: none;
+  }
+
   .site-header .wrapper {
     flex-direction: column;
     gap: 1rem;

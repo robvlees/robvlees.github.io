@@ -1,0 +1,50 @@
+---
+layout: page
+title: Blog
+subtitle: Latest thoughts and tutorials
+---
+
+<div class="content-wrapper">
+  <div class="main-column">
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li class="post-item">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          {% if post.author %} • {{ post.author }}{% endif %}
+        </p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        <a href="{{ post.url | relative_url }}">Read more →</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if site.posts.size == 0 %}
+    <p>No blog posts yet. Check back soon!</p>
+    {% endif %}
+  </div>
+  
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <h3>Latest Posts</h3>
+      {% for post in site.posts limit:3 %}
+      <div class="sidebar-post">
+        <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+        <p class="date">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </p>
+      </div>
+      {% endfor %}
+      <p><a href="/blog/">View All Posts →</a></p>
+    </div>
+    
+    <div class="sidebar-section">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="/blog/">All Posts</a></li>
+        <li><a href="/tutorials/">Tutorials</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>

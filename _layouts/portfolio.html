@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="portfolio">
+  <header class="post-header">
+    <h1>{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %Y" }}</time>
+    </p>
+  </header>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  {% if page.link %}
+  <p>
+    <a href="{{ page.link }}" class="btn" target="_blank">View Live Project</a>
+  </p>
+  {% endif %}
+</article>

@@ -1,0 +1,45 @@
+---
+layout: page
+title: Portfolio
+subtitle: Selected projects and work samples
+---
+
+<p>Here are some of the projects I've worked on. Each project represents a unique challenge and creative solution.</p>
+
+<div class="portfolio-items">
+  {% assign portfolio_items = site.portfolio | sort: 'date' | reverse %}
+  {% for item in portfolio_items %}
+  <div class="portfolio-item">
+    <div class="portfolio-content">
+      <h3>{{ item.title }}</h3>
+      <p class="date">{{ item.date | date: "%B %Y" }}</p>
+      <p>{{ item.description }}</p>
+      <div class="portfolio-tags">
+        {% for tag in item.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% if item.link %}
+      <a href="{{ item.link }}" class="btn" target="_blank">View Project</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Sample Portfolio Items (uncomment and modify) -->
+<!-- 
+<div class="portfolio-item">
+  <div class="portfolio-content">
+    <h3>Project Name</h3>
+    <p class="date">January 2024</p>
+    <p>Project description goes here. Explain what you built and what technologies you used.</p>
+    <div class="portfolio-tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+    </div>
+    <a href="#" class="btn">View Project</a>
+  </div>
+</div>
+-->

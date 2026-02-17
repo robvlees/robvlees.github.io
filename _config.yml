@@ -1,0 +1,126 @@
+# Site Settings
+lang: en
+title: Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist
+tagline: Linux DevOps Engineer & Blender 3D Artist | Technical Expertise & Creative Portfolio
+email: robvlees@gmail.com
+description: >
+  Rob Vleeshouwers - Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry. Explore technical projects and creative 3D artwork.
+url: "https://www.vleeshouwers.ch"
+permalink: pretty
+favicon: /img/favicon-32x32.png
+
+# Build settings
+sass:
+  silence_deprecations:
+    - import
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: /blog/:title/
+
+# Minima theme settings
+theme: minima
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    github: "robvlees"
+    linkedin: "https://www.linkedin.com/in/vleeshouwers/"
+    facebook: "https://www.facebook.com/rob.vleeshouwers"
+    vimeo: "https://vimeo.com/user5783542"
+
+# Collections
+collections:
+  portfolio:
+    output: true
+  tutorials:
+    output: true
+    permalink: /tutorials/:name/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_portfolio"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: "_tutorials"
+    values:
+      layout: "tutorial"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Google Analytics
+google_analytics: G-703WPBYY61
+
+# SEO defaults
+jekyll-seo-tag:
+  defaults:
+    title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
+    description: "Professional portfolio of Rob Vleeshouwers - Linux DevOps Engineer with expertise in IT infrastructure, security implementation, and Blender 3D artistry."
+    image: "/img/Logo.png"
+    url: "{{ site.url }}"
+    twitter:
+      card: summary_large_image
+      site: "@robvlees"
+      creator: "@robvlees"
+    og:
+      title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
+      description: "Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry."
+      image: "/img/Logo.png"
+      url: "{{ site.url }}"
+      type: website
+      site_name: "Rob Vleeshouwers Portfolio"
+    author:
+      name: "Rob Vleeshouwers"
+      twitter: "@robvlees"
+    social:
+      name: "Rob Vleeshouwers"
+      links:
+        - https://www.linkedin.com/in/vleeshouwers/
+        - https://www.facebook.com/rob.vleeshouwers
+        - https://github.com/robvlees
+        - https://vimeo.com/user5783542
+
+# Social links
+social:
+  name: Rob Vleeshouwers
+  linkedin: https://www.linkedin.com/in/vleeshouwers/
+  facebook: https://www.facebook.com/rob.vleeshouwers
+  github: https://github.com/robvlees
+  vimeo: https://vimeo.com/user5783542
+
+# Remote theme for GitHub Pages
+remote_theme: jekyll/minima

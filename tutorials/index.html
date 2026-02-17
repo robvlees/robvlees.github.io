@@ -1,0 +1,54 @@
+---
+layout: page
+title: Tutorials
+subtitle: Technical tutorials and guides
+---
+
+<div class="content-wrapper">
+  <div class="main-column">
+    <p>Welcome to my tutorials section where I share technical guides on Linux, DevOps, Blender, and more.</p>
+
+    <ul class="post-list">
+      {% assign tutorials = site.tutorials | sort: 'date' | reverse %}
+      {% for tutorial in tutorials %}
+      <li class="post-item">
+        <h2><a href="{{ tutorial.url | relative_url }}">{{ tutorial.title | escape }}</a></h2>
+        <p class="post-meta">
+          <time datetime="{{ tutorial.date | date: '%Y-%m-%d' }}">{{ tutorial.date | date: "%B %-d, %Y" }}</time>
+          {% if tutorial.author %} • {{ tutorial.author }}{% endif %}
+        </p>
+        <p>{{ tutorial.description | default: tutorial.excerpt | strip_html | truncatewords: 50 }}</p>
+        <a href="{{ tutorial.url | relative_url }}">Read tutorial →</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if site.tutorials.size == 0 %}
+    <p>No tutorials yet. Check back soon!</p>
+    {% endif %}
+  </div>
+  
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <h3>Latest Tutorials</h3>
+      {% assign tutorials = site.tutorials | sort: 'date' | reverse | limit: 3 %}
+      {% for tutorial in tutorials %}
+      <div class="sidebar-post">
+        <h4><a href="{{ tutorial.url | relative_url }}">{{ tutorial.title | escape }}</a></h4>
+        <p class="date">
+          <time datetime="{{ tutorial.date | date: '%Y-%m-%d' }}">{{ tutorial.date | date: "%B %-d, %Y" }}</time>
+        </p>
+      </div>
+      {% endfor %}
+      <p><a href="/tutorials/">View All Tutorials →</a></p>
+    </div>
+    
+    <div class="sidebar-section">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="/blog/">Blog Posts</a></li>
+        <li><a href="/tutorials/">Tutorials</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>

@@ -1,6 +1,6 @@
 # Site Settings
 lang: en
-title: Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist
+title: Rob Vleesghouwers
 tagline: Linux DevOps Engineer & Blender 3D Artist | Technical Expertise & Creative Portfolio
 email: robvlees@gmail.com
 description: >
@@ -16,9 +16,6 @@ sass:
 
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
 permalink: /blog/:title/
 
 # Minima theme settings
@@ -90,7 +87,7 @@ jekyll-seo-tag:
   defaults:
     title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
     description: "Professional portfolio of Rob Vleeshouwers - Linux DevOps Engineer with expertise in IT infrastructure, security implementation, and Blender 3D artistry."
-    image: "/img/Logo.png"
+    image: "/images/Logo.png"
     url: "{{ site.url }}"
     twitter:
       card: summary_large_image
@@ -99,7 +96,7 @@ jekyll-seo-tag:
     og:
       title: "Rob Vleeshouwers | Linux DevOps Engineer & Blender Artist"
       description: "Professional portfolio showcasing expertise in Linux DevOps engineering, IT infrastructure, security implementation, and Blender 3D artistry."
-      image: "/img/Logo.png"
+      image: "/images/Logo.png"
       url: "{{ site.url }}"
       type: website
       site_name: "Rob Vleeshouwers Portfolio"

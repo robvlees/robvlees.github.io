@@ -1254,6 +1254,10 @@ figcaption {
 }
 
 @media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
   .site-header .wrapper {
     flex-direction: column;
     gap: 1rem;

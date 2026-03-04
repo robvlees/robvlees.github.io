@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on Rob Vleeshouwers</title><link>https://www.vleeshouwers.ch/categories/tutorial/</link><description>Recent content in Tutorial on Rob Vleeshouwers</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.vleeshouwers.ch/categories/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with Jekyll</title><link>https://www.vleeshouwers.ch/blog/getting-started-with-jekyll/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://www.vleeshouwers.ch/blog/getting-started-with-jekyll/</guid><description>&lt;p&gt;Jekyll is a powerful static site generator that&amp;rsquo;s perfect for blogs, portfolios, and documentation sites. In this tutorial, I&amp;rsquo;ll show you how to get started.&lt;/p&gt;
+&lt;h2 id="why-jekyll"&gt;Why Jekyll?&lt;/h2&gt;
+&lt;p&gt;Jekyll offers several advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt; - Static HTML means lightning-fast page loads&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt; - No database or server-side code to hack&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Free Hosting&lt;/strong&gt; - Deploy directly to GitHub Pages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown Support&lt;/strong&gt; - Write content in Markdown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;p&gt;First, make sure you have Ruby installed. Then install Jekyll:&lt;/p&gt;</description></item></channel></rss>

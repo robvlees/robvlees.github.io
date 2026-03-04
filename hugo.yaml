@@ -1,0 +1,84 @@
+baseURL: https://www.vleeshouwers.ch
+languageCode: en-us
+title: Rob Vleeshouwers
+
+# Theme configuration (using basic layout)
+theme: null
+
+# Default parameters
+params:
+  subtitle: "Linux DevOps Engineer & Blender 3D Artist"
+  description: "Portfolio and blog of Rob Vleeshouwers - Linux DevOps Engineer & Blender 3D Artist"
+  logo: "Robby"
+  social:
+    linkedin: https://linkedin.com/in/vleeshouwers
+    github: https://github.com/robvlees
+    email: robvlees@gmail.com
+#    twitter: https://twitter.com/yourprofile
+    facebook: https://facebook.com/rob.vleeshouwers
+    reddit: https://reddit.com/user/robvlees
+
+# Navigation menu
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Blog
+      url: /blog/
+      weight: 3
+    - name: Tutorials
+      url: /tutorials/
+      weight: 4
+    - name: Portfolio
+      url: /portfolio/
+      weight: 5
+    - name: Gallery
+      url: /gallery/
+      weight: 6
+
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+  author: authors
+
+# Build settings
+build:
+  writeStats: true
+
+# Markup settings
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+# Permalinks
+permalinks:
+  post: /blog/:slug/
+
+# Privacy settings
+privacy:
+  twitter:
+    disable: false
+  instagram:
+    disable: false
+  youtube:
+    disable: false
+
+# Related content
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 80

@@ -1,0 +1,141 @@
+{{ define "header" }}
+    {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="content-wrapper">
+    <div class="main-column">
+        <article class="post-article">
+            <header class="post-header">
+                <h1 class="post-title">{{ .Title }}</h1>
+                <div class="post-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        {{ .Date.Format "January 2, 2006" }}
+                    </time>
+                    {{ with .Params.author }}
+                    <span class="author">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        {{ . }}
+                    </span>
+                    {{ end }}
+                </div>
+            </header>
+            
+            {{ with .Params.image }}
+            <div class="post-featured-image">
+                <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            </div>
+            {{ end }}
+            
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+            
+            {{ with .Params.tags }}
+            <div class="post-tags">
+                {{ range . }}
+                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag-link">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+            
+            <!-- Share Buttons -->
+            <div class="share-buttons">
+                <h3>Share this post</h3>
+                <ul class="share-buttons-list">
+                    <li>
+                        <a href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" class="facebook" aria-label="Share on Facebook">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener" class="twitter" aria-label="Share on Twitter">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-12.7 14.5 3.2.3 6.5-2.6 6.5-2.6-3.7-1.3-6.4-4.5-6.4-4.5-3.7-2.6-.4-6.4-.4-6.4 3.1-.4 6.5 2.6 6.5 2.6-3.3-1.8-6.5-5-6.5-5-2.6-2.6-.4-5.8.4-7.4-3.1-.9-4.4-4.1-4.4-4.1-.6-.8-.4-2 .4-2.8 0 0 1.6-.5 3.3 1.4 1.6-.4 3.3-.4 3.3-.4 1.1 0 2.2.4 2.8.4.6 0 2-.4 2.8-.4.8 0 1.6.5 2.8.4.8.8.6 2 .4 2.8.8 1.6.4 3.3.4 3.3 0 0-3.2 3.3-6.5 2.6-6.5-2.6 3.3 1.8 6.5 5 6.5 5 2.6 2.6.4 5.8.4 7.4 3.1.9 4.4 4.1 4.4 4.1 0 0 .4 1.2-.4 2 .8 1.6.4 3.3.4 3.3.4 1.2-1.6 2.3-2.8 2.8-2.8-.8 0-1.6-.5-2.8-.4-2.6-.6-4.4-3.7-4.4-6.5 0-3.3 3.3-6.5 6.5-6.5 3.3 0 6.5 3.3 6.5 6.5 0 1.6.4 3.3.4 3.3 0 0-1.6.5-3.3 1.4-1.6-.4-3.3-.4-3.3-.4-1.1 0-2.2.4-2.8.4-.6 0-2-.4-2.8-.4-.8 0-1.6.5-2.8.4-.8-.8-.6-2-.4-2.8-2.6-.6-4.4-3.7-4.4-6.5 0-3.3 3.3-6.5 6.5-6.5 3.3 0 6.5 3.3 6.5 6.5 0 1.6.4 3.3.4 3.3 0 0-1.6.5-3.3 1.4-1.6-.4-3.3-.4-3.3-.4-1.1 0-2.2.4-2.8.4-.6 0-2-.4-2.8-.4-.8 0-1.6.5-2.8.4-.8-.8-.6-2-.4-2.8 3.1-.9 4.4-4.1 4.4-4.1z"></path>
+                            </svg>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/shareArticle?url={{ .Permalink }}&title={{ .Title }}" target="_blank" rel="noopener" class="linkedin" aria-label="Share on LinkedIn">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" rel="noopener" class="reddit" aria-label="Share on Reddit">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M16 12a4 4 0 0 1-8 0"></path>
+                                <path d="M12 5v14"></path>
+                            </svg>
+                            Reddit
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" class="email" aria-label="Share via Email">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+    
+    <aside class="sidebar">
+        {{ $currentSection := .Section }}
+        <div class="sidebar-section">
+            <h3 class="section-title">LATEST POSTS</h3>
+            <div class="latest-posts">
+                {{ $pages := where .Site.RegularPages "Section" $currentSection }}
+                {{ range first 3 $pages }}
+                <div class="sidebar-post-item">
+                    <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
+                    <span class="post-date">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </span>
+                </div>
+                {{ end }}
+            </div>
+            {{ if eq $currentSection "post" }}
+            <a href="/blog/" class="view-all-posts">View All Posts →</a>
+            {{ else if eq $currentSection "tutorials" }}
+            <a href="/tutorials/" class="view-all-posts">View All Tutorials →</a>
+            {{ end }}
+        </div>
+        
+        <div class="sidebar-section">
+            <h3 class="section-title">CATEGORIES</h3>
+            <ul class="categories-list">
+                {{ range .Site.Taxonomies.categories }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </aside>
+</div>
+{{ end }}

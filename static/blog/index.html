@@ -1,0 +1,57 @@
+{{ define "header" }}
+    {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="content-wrapper">
+    <div class="main-column">
+        <h1>Blog</h1>
+        <ul class="post-list">
+            {{ range .Site.RegularPages }}
+            <li class="post-item">
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p class="post-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ with .Params.author }} • {{ . }}{{ end }}
+                </p>
+                <p class="post-excerpt">{{ .Summary | plainify | truncate 100 }}</p>
+                <a href="{{ .Permalink }}">Read more →</a>
+            </li>
+            {{ end }}
+        </ul>
+
+        {{ if eq (len .Site.RegularPages) 0 }}
+        <p>No blog posts yet. Check back soon!</p>
+        {{ end }}
+    </div>
+    
+    <aside class="sidebar">
+        <div class="sidebar-section">
+            <h3 class="section-title">LATEST POSTS</h3>
+            <div class="latest-posts">
+                {{ range first 3 .Site.RegularPages }}
+                <div class="sidebar-post-item">
+                    <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
+                    <span class="post-date">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </span>
+                </div>
+                {{ end }}
+            </div>
+            <a href="/blog/" class="view-all-posts">View All Posts →</a>
+        </div>
+        
+        <div class="sidebar-section">
+            <h3 class="section-title">CATEGORIES</h3>
+            <ul class="categories-list">
+                <li><a href="/blog/">All Posts</a></li>
+                <li><a href="/tutorials/">Tutorials</a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+{{ end }}

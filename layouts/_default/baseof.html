@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" {{ with .Site.Params.dir }}dir="{{ . }}"{{ end }}>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <link rel="canonical" href="{{ .Permalink }}">
+    
+    <link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
+    
+    <script>
+      // Apply default theme immediately to prevent FOUC
+      (function() {
+        // Default to dark theme, but respect user preference from localStorage
+        var theme = localStorage.getItem('preferredTheme');
+        if (theme === 'light') {
+          document.body.classList.remove('theme-dark');
+        } else {
+          document.body.classList.add('theme-dark');
+        }
+      })();
+    </script>
+    
+    {{ block "head" . }}{{ end }}
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    
+    {{ block "header" . }}{{ end }}
+    
+    <main class="site-main" id="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    {{ block "footer" . }}{{ end }}
+    
+    <script src="{{ "assets/js/modal.js" | relURL }}"></script>
+    <script src="{{ "assets/js/ux.js" | relURL }}"></script>
+    <script src="{{ "assets/js/theme.js" | relURL }}"></script>
+</body>
+</html>

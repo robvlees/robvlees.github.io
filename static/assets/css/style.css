@@ -12,10 +12,10 @@
   --text-secondary: #6c757d;
   --text-muted: #868e96;
   
-  /* Accent Colors - Orange */
-  --accent-primary: #ff8c00;
-  --accent-secondary: #e67000;
-  --accent-gradient: linear-gradient(135deg, #ff8c00 0%, #e67000 100%);
+  /* Accent Colors - Modern Blue */
+  --accent-primary: #2563eb;
+  --accent-secondary: #1d4ed8;
+  --accent-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   
   /* Borders */
   --border-color: #e5e7eb;

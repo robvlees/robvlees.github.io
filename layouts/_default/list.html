@@ -25,6 +25,9 @@
                     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
                     {{ with .Params.author }} • {{ . }}{{ end }}
                 </p>
+                {{ with .Params.image }}
+                <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" style="display:none;">
+                {{ end }}
                 <p>{{ .Summary | plainify | truncate 100 }}</p>
                 <a href="{{ .Permalink }}">Read more →</a>
             </li>

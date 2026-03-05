@@ -7,7 +7,7 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="content-wrapper">
+<div class="content-wrapper gallery-full-width">
     <div class="main-column">
         <h1>{{ .Title }}</h1>
         {{ if .Content }}
@@ -31,28 +31,5 @@
             {{ end }}
         </div>
     </div>
-    
-    <aside class="sidebar">
-        <div class="sidebar-section">
-            <h3 class="section-title">ABOUT GALLERY</h3>
-            <p class="gallery-description">
-                A collection of my 3D art and Blender creations. Click on any image to view it in full size.
-            </p>
-        </div>
-        
-        <div class="sidebar-section">
-            <h3 class="section-title">IMAGES</h3>
-            <div class="gallery-stats">
-                {{ $images := (readDir "/static/images/gallery") }}
-                {{ $count := 0 }}
-                {{ range $images }}
-                    {{ if and (not .IsDir) (in (slice ".jpg" ".jpeg" ".png" ".webp") (path.Ext .Name)) }}
-                        {{ $count = add $count 1 }}
-                    {{ end }}
-                {{ end }}
-                <span class="gallery-count">{{ $count }} images</span>
-            </div>
-        </div>
-    </aside>
 </div>
 {{ end }}

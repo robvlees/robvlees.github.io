@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Disallow crawl of admin pages
+Disallow: /admin/
+Disallow: /workspace/
+
+# Disallow private content
+Disallow: /private/
+
+# Allow search engines to index images
+Allow: /images/
+Allow: /static/images/
+
+# Allow search engines to index CSS and JavaScript
+Allow: /assets/
+Allow: /static/assets/
+
+# Sitemap location
+Sitemap: https://www.vleeshouwers.ch/sitemap.xml

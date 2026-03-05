@@ -10,6 +10,7 @@ params:
   subtitle: "Linux DevOps Engineer & Blender 3D Artist"
   description: "Portfolio and blog of Rob Vleeshouwers - Linux DevOps Engineer & Blender 3D Artist"
   logo: "Robby"
+  keywords: "Linux, DevOps, Kubernetes, Docker, Ansible, Blender 3D, 3D modeling, animation, VFX, open source, static site generator, Hugo, Jekyll"
   social:
     linkedin: https://linkedin.com/in/vleeshouwers
     github: https://github.com/robvlees

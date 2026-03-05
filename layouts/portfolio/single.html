@@ -16,7 +16,7 @@
             
             {{ with .Params.featured_image }}
             <div class="portfolio-featured-image">
-                <img src="{{ .path }}" alt="{{ .alt | default .title }}">
+                <img src="{{ .path }}" alt="{{ .alt | default .title }}" loading="lazy">
             </div>
             {{ end }}
             

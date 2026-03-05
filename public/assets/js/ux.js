@@ -1,12 +1,62 @@
 /**
  * UX Improvements
- * Back to top button and page transition animations
+ * Back to top button, page transitions, and portfolio filtering
  */
 
 (function() {
   'use strict';
 
+  // ============================================
+  // Portfolio Filtering System
+  // ============================================
+  
+  function initPortfolioFiltering() {
+    var filterBtns = document.querySelectorAll('.filter-btn');
+    var portfolioItems = document.querySelectorAll('.portfolio-item');
+    
+    if (!filterBtns.length || !portfolioItems.length) return;
+    
+    // Handle filter button clicks
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var filterValue = this.getAttribute('data-filter');
+        
+        // Update active button state
+        filterBtns.forEach(function(b) {
+          b.classList.remove('active');
+        });
+        this.classList.add('active');
+        
+        // Filter portfolio items
+        portfolioItems.forEach(function(item) {
+          var categories = item.getAttribute('data-categories');
+          
+          if (filterValue === 'all') {
+            item.style.display = '';
+            // Trigger animation for all items
+            item.style.animation = 'none';
+            item.offsetHeight; /* trigger reflow */
+            item.style.animation = null;
+          } else {
+            if (categories && categories.includes(filterValue)) {
+              item.style.display = '';
+              // Trigger animation for filtered items
+              item.style.animation = 'none';
+              item.offsetHeight; /* trigger reflow */
+              item.style.animation = null;
+            } else {
+              item.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  }
+  
+  // ============================================
   // Back to top button
+  // ============================================
+  
   var backToTopBtn = null;
   var scrollThreshold = 300; // px to show button
 
@@ -70,6 +120,9 @@
    * Initialize all UX improvements
    */
   function initUX() {
+    // Portfolio filtering
+    initPortfolioFiltering();
+    
     // Back to top button
     initBackToTop();
   }

@@ -1,5 +1,6 @@
 ---
 author: Your Name
+draft: true
 categories:
 - General
 - Introduction

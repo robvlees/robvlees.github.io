@@ -49,6 +49,9 @@ taxonomies:
 # Build settings
 build:
   writeStats: true
+caches:
+  images:
+    dir: :cacheDir/images
 
 # Markup settings
 markup:

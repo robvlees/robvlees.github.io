@@ -21,6 +21,8 @@ project_type: Enterprise Solution
 project_client: Internal
 project_date: June 2025
 project_duration: 3 months
+section: portfolio
+
 project_url: ""
 project_github: ""
 skills:

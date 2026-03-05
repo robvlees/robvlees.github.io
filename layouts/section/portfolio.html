@@ -16,34 +16,15 @@
         </div>
         {{ end }}
         
-        <!-- Filter Buttons -->
-        <div class="portfolio-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            {{ with .Site.Taxonomies.categories }}
-            {{ range $key, $value := . }}
-            <button class="filter-btn" data-filter="{{ $key | urlize }}">{{ $key }}</button>
-            {{ end }}
-            {{ end }}
-        </div>
-        
         <!-- Portfolio Grid -->
-        <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-grid">
             {{ $portfolioPages := where .Site.RegularPages "Section" "portfolio" }}
             {{ range sort $portfolioPages ".Date" "desc" }}
-            <article class="portfolio-item" data-categories="{{ range .Params.categories }}{{ . | urlize }} {{ end }}">
+            <article class="portfolio-item">
                 <div class="portfolio-card">
                     {{ with .Params.featured_image }}
                     <div class="portfolio-image">
                         <img src="{{ .path }}" alt="{{ default .alt .title | default .title }}">
-                        <div class="portfolio-overlay">
-                            <a href="{{ .permalink }}" class="portfolio-view-btn" aria-label="View project details">
-                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <line x1="12" y1="8" x2="12" y2="16"/>
-                                    <line x1="8" y1="12" x2="16" y2="12"/>
-                                </svg>
-                            </a>
-                        </div>
                     </div>
                     {{ else }}
                     <div class="portfolio-image placeholder">
@@ -80,44 +61,21 @@
                         <p class="portfolio-description">
                             {{ default (.Summary | plainify | truncate 100) .Description }}
                         </p>
+                        
+                        <a href="{{ .Permalink }}" class="view-btn">View Project</a>
                     </div>
                 </div>
             </article>
             {{ end }}
         </div>
-        
-        <!-- Portfolio Pagination (if needed) -->
-        {{ if gt (len .Pages) 12 }}
-        <div class="portfolio-pagination">
-            {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">Previous</a>
-            {{ end }}
-            <span class="pagination-info">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-            {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">Next</a>
-            {{ end }}
-        </div>
-        {{ end }}
     </div>
     
     <aside class="sidebar">
         <div class="sidebar-section">
             <h3 class="section-title">ABOUT PORTFOLIO</h3>
             <p class="portfolio-description">
-                A collection of my professional projects and creative work. Filter by category to explore specific types of projects.
+                A collection of my professional projects and creative work.
             </p>
-        </div>
-        
-        <div class="sidebar-section">
-            <h3 class="section-title">CATEGORIES</h3>
-            <div class="portfolio-categories">
-                <a href="{{ .Permalink }}" class="category-link{{ if not .Paginator.PageNumber }} active{{ end }}">All Projects</a>
-                {{ with .Site.Taxonomies.categories }}
-                {{ range $key, $value := . }}
-                <a href="{{ (printf "/categories/%s/" (urlize $key)) | relURL }}" class="category-link">{{ $key }}</a>
-                {{ end }}
-                {{ end }}
-            </div>
         </div>
         
         <div class="sidebar-section">

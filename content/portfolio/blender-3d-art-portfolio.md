@@ -22,6 +22,8 @@ project_type: Artistic Portfolio
 project_client: Personal
 project_date: March 2025
 project_duration: 6 months
+section: portfolio
+
 project_url: ""
 project_github: ""
 skills:

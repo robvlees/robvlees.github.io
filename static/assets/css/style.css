@@ -1376,6 +1376,17 @@ strong {
   margin-top: 2rem;
 }
 
+/* Full width layout for single portfolio pages */
+.main-column.full-width {
+  grid-column: 1 / -1;
+}
+
+.full-width .portfolio-article,
+.full-width .post-article {
+  max-width: 100%;
+  padding: 3rem 2rem;
+}
+
 .portfolio-item {
   animation: fadeInUp 0.6s ease-out backwards;
 }
@@ -1441,8 +1452,63 @@ strong {
   color: var(--text-secondary);
   font-size: 0.9375rem;
   line-height: 1.6;
-  flex: 1;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.view-btn {
+  display: inline-block;
+  background: var(--accent-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  background: var(--accent-secondary);
+  transform: translateY(-2px);
+}
+
+/* Portfolio Overlay and View Button */
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+  z-index: 1;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-view-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: white;
+  color: var(--text-primary);
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-view-btn:hover {
+  transform: scale(1.1);
+  background: var(--accent-primary);
+  color: white;
 }
 
 /* Portfolio Single Page */

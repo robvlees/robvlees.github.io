@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Process-Management on Rob Vleeshouwers</title>
-    <link>https://www.vleeshouwers.ch/tags/process-management/</link>
+    <link>http://127.0.0.1:1313/tags/process-management/</link>
     <description>Recent content in Process-Management on Rob Vleeshouwers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2025 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.vleeshouwers.ch/tags/process-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://127.0.0.1:1313/tags/process-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Linux System Administration - Complete Guide</title>
-      <link>https://www.vleeshouwers.ch/tutorials/2026-02-23-first-linux-tutorial/</link>
+      <link>http://127.0.0.1:1313/tutorials/2026-02-23-first-linux-tutorial/</link>
       <pubDate>Sun, 23 Feb 2025 10:00:00 +0000</pubDate>
-      <guid>https://www.vleeshouwers.ch/tutorials/2026-02-23-first-linux-tutorial/</guid>
+      <guid>http://127.0.0.1:1313/tutorials/2026-02-23-first-linux-tutorial/</guid>
       <description>A comprehensive beginner&amp;rsquo;s guide to Linux system administration covering essential commands, user management, file permissions, and system monitoring with practical examples for IT infrastructure and security implementation.</description>
     </item>
   </channel>

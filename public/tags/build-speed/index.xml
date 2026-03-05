@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Build Speed on Rob Vleeshouwers</title>
-    <link>https://www.vleeshouwers.ch/tags/build-speed/</link>
+    <link>http://127.0.0.1:1313/tags/build-speed/</link>
     <description>Recent content in Build Speed on Rob Vleeshouwers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Mar 2026 10:50:07 +0000</lastBuildDate>
-    <atom:link href="https://www.vleeshouwers.ch/tags/build-speed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://127.0.0.1:1313/tags/build-speed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jekyll vs Hugo: A Comparison of Static Site Generators</title>
-      <link>https://www.vleeshouwers.ch/blog/jekyll-vs-hugo-a-comparison-of-static-site-generators/</link>
+      <link>http://127.0.0.1:1313/blog/jekyll-vs-hugo-a-comparison-of-static-site-generators/</link>
       <pubDate>Tue, 03 Mar 2026 10:50:07 +0000</pubDate>
-      <guid>https://www.vleeshouwers.ch/blog/jekyll-vs-hugo-a-comparison-of-static-site-generators/</guid>
+      <guid>http://127.0.0.1:1313/blog/jekyll-vs-hugo-a-comparison-of-static-site-generators/</guid>
       <description>&lt;p&gt;In the world of static site generators, two tools often stand out: Jekyll and Hugo. Both have their strengths and weaknesses, and choosing between them depends on your specific needs and workflow.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Static site generators have become increasingly popular for building fast, secure websites. Jekyll, created by GitHub, was one of the pioneers in this space, while Hugo, written in Go, has gained traction for its speed and modern features.&lt;/p&gt;</description>
     </item>
   </channel>

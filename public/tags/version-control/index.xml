@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Version Control on Rob Vleeshouwers</title>
-    <link>https://www.vleeshouwers.ch/tags/version-control/</link>
+    <link>http://127.0.0.1:1313/tags/version-control/</link>
     <description>Recent content in Version Control on Rob Vleeshouwers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Jun 2025 10:50:07 +0000</lastBuildDate>
-    <atom:link href="https://www.vleeshouwers.ch/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://127.0.0.1:1313/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I use a static site generator</title>
-      <link>https://www.vleeshouwers.ch/blog/why-i-use-a-static-site-generator/</link>
+      <link>http://127.0.0.1:1313/blog/why-i-use-a-static-site-generator/</link>
       <pubDate>Sat, 07 Jun 2025 10:50:07 +0000</pubDate>
-      <guid>https://www.vleeshouwers.ch/blog/why-i-use-a-static-site-generator/</guid>
+      <guid>http://127.0.0.1:1313/blog/why-i-use-a-static-site-generator/</guid>
       <description>&lt;p&gt;There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators?&lt;/p&gt;&#xA;&lt;p&gt;A static site is pretty much what it sounds like, a set of pre generated html pages. Other platforms take what you enter into the CMS and process the information stored in the database, alongside a template or many template partials and dynamically construct the page before serving the html to you in your browser.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3d-Modeling on Rob Vleeshouwers</title>
-    <link>https://www.vleeshouwers.ch/tags/3d-modeling/</link>
+    <link>http://127.0.0.1:1313/tags/3d-modeling/</link>
     <description>Recent content in 3d-Modeling on Rob Vleeshouwers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jan 2025 14:30:00 +0000</lastBuildDate>
-    <atom:link href="https://www.vleeshouwers.ch/tags/3d-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://127.0.0.1:1313/tags/3d-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blender 3D Modeling for Beginners</title>
-      <link>https://www.vleeshouwers.ch/tutorials/2026-01-23-blender-tutorial/</link>
+      <link>http://127.0.0.1:1313/tutorials/2026-01-23-blender-tutorial/</link>
       <pubDate>Thu, 23 Jan 2025 14:30:00 +0000</pubDate>
-      <guid>https://www.vleeshouwers.ch/tutorials/2026-01-23-blender-tutorial/</guid>
+      <guid>http://127.0.0.1:1313/tutorials/2026-01-23-blender-tutorial/</guid>
       <description>Learn the fundamentals of Blender 3D modeling, from basic tools to creating your first 3D scene. This tutorial covers the basics of 3D modeling in Blender including interface navigation and creating simple shapes.</description>
     </item>
   </channel>

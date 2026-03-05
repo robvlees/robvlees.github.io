@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Local-Ai on Rob Vleeshouwers</title>
-    <link>https://www.vleeshouwers.ch/tags/local-ai/</link>
+    <link>http://127.0.0.1:1313/tags/local-ai/</link>
     <description>Recent content in Local-Ai on Rob Vleeshouwers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2026 11:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.vleeshouwers.ch/tags/local-ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://127.0.0.1:1313/tags/local-ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Local AI Stack: Orchestrating Qwen 3.5 with llama.cpp, llama-swap, and Cline</title>
-      <link>https://www.vleeshouwers.ch/blog/local-ai-stack-qwen-3-5-setup/</link>
+      <link>http://127.0.0.1:1313/blog/local-ai-stack-qwen-3-5-setup/</link>
       <pubDate>Mon, 02 Mar 2026 11:00:00 +0000</pubDate>
-      <guid>https://www.vleeshouwers.ch/blog/local-ai-stack-qwen-3-5-setup/</guid>
+      <guid>http://127.0.0.1:1313/blog/local-ai-stack-qwen-3-5-setup/</guid>
       <description>&lt;p&gt;In the rapidly evolving world of Large Language Models (LLMs), privacy and latency are becoming just as important as raw intelligence. After experimenting with various cloud APIs, I&amp;rsquo;ve settled on a robust, entirely local setup that runs on my own hardware.&lt;/p&gt;&#xA;&lt;p&gt;On 17 February 2026 The Qwen-3.5 model was released, Qwen is released as open source and freely available for everyone to use. &lt;a href=&#34;https://unsloth.ai/docs/models/qwen3.5&#34;&gt;Unsloth Qwen 3.5&lt;/a&gt;{:target=&amp;quot;_blank&amp;quot;} My current workflow relies on the &lt;strong&gt;Qwen 3.5&lt;/strong&gt; family of models. While the base architecture is the same, the magic lies in how I orchestrate the infrastructure, tune the inference parameters for specific tasks, and manage context windows for large codebases.&lt;/p&gt;</description>
     </item>
   </channel>

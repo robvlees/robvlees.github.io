@@ -763,16 +763,16 @@ strong {
   }
   
   /* Rotate hamburger to X when active */
-  .menu-toggle.nav-active .hamburger {
+  .menu-toggle.active .hamburger {
     background-color: transparent;
   }
   
-  .menu-toggle.nav-active .hamburger::before {
+  .menu-toggle.active .hamburger::before {
     top: 0;
     transform: rotate(45deg);
   }
   
-  .menu-toggle.nav-active .hamburger::after {
+  .menu-toggle.active .hamburger::after {
     bottom: 0;
     transform: rotate(-45deg);
   }
@@ -857,6 +857,30 @@ strong {
   
   .post-title {
     font-size: 1.25rem;
+  }
+  
+  /* Overlay for closing menu on outside click */
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--transition-normal), visibility var(--transition-normal);
+  }
+  
+  .menu-overlay.overlay-active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Prevent body scroll when menu is open */
+  body.menu-open {
+    overflow: hidden;
   }
 }
 

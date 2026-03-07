@@ -8,8 +8,8 @@
             <span class="hamburger"></span>
         </button>
         
+        <div class="menu-overlay"></div>
         <nav class="main-nav" id="mainNav">
-            <div class="menu-overlay"></div>
             <ul class="nav-menu">
                 {{ range .Site.Menus.main }}
                 <li class="nav-item">
@@ -88,6 +88,22 @@ document.addEventListener('DOMContentLoaded', function() {
         // Prevent closing when clicking inside the menu
         navMenu.addEventListener('click', function(e) {
             e.stopPropagation();
+        });
+        
+        // Close menu when clicking outside (on the overlay or anywhere else)
+        document.addEventListener('click', function(e) {
+            const isClickInsideMenu = navMenu.contains(e.target);
+            const isClickOnToggle = menuToggle.contains(e.target);
+            
+            if (!isClickInsideMenu && !isClickOnToggle && navMenu.classList.contains('nav-active')) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('nav-active');
+                if (menuOverlay) {
+                    menuOverlay.classList.remove('overlay-active');
+                }
+                document.body.classList.remove('menu-open');
+            }
         });
     }
 });

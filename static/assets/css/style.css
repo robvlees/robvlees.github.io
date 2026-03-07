@@ -790,12 +790,14 @@ strong {
     gap: 0;
     max-height: 0;
     overflow: hidden;
-    transition: max-height var(--transition-normal);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all var(--transition-normal) ease-in-out;
+    border: none;
+    box-shadow: none;
   }
   
   .nav-menu.nav-active {
     max-height: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .nav-item {

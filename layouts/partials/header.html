@@ -8,7 +8,6 @@
             <span class="hamburger"></span>
         </button>
         
-        <div class="menu-overlay"></div>
         <nav class="main-nav" id="mainNav">
             <ul class="nav-menu">
                 {{ range .Site.Menus.main }}
@@ -46,7 +45,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menuToggle');
     const navMenu = document.querySelector('.nav-menu');
-    const menuOverlay = document.querySelector('.menu-overlay');
     
     if (menuToggle && navMenu) {
         menuToggle.addEventListener('click', function(e) {
@@ -55,9 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
             menuToggle.setAttribute('aria-expanded', !isExpanded);
             menuToggle.classList.toggle('active');
             navMenu.classList.toggle('nav-active');
-            if (menuOverlay) {
-                menuOverlay.classList.toggle('overlay-active');
-            }
             document.body.classList.toggle('menu-open');
         });
         
@@ -67,30 +62,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.classList.remove('active');
                 navMenu.classList.remove('nav-active');
-                if (menuOverlay) {
-                    menuOverlay.classList.remove('overlay-active');
-                }
                 document.body.classList.remove('menu-open');
             });
         });
-        
-        // Close menu when clicking on the overlay
-        if (menuOverlay) {
-            menuOverlay.addEventListener('click', function() {
-                menuToggle.setAttribute('aria-expanded', 'false');
-                menuToggle.classList.remove('active');
-                navMenu.classList.remove('nav-active');
-                menuOverlay.classList.remove('overlay-active');
-                document.body.classList.remove('menu-open');
-            });
-        }
         
         // Prevent closing when clicking inside the menu
         navMenu.addEventListener('click', function(e) {
             e.stopPropagation();
         });
         
-        // Close menu when clicking outside (on the overlay or anywhere else)
+        // Close menu when clicking outside
         document.addEventListener('click', function(e) {
             const isClickInsideMenu = navMenu.contains(e.target);
             const isClickOnToggle = menuToggle.contains(e.target);
@@ -99,9 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.classList.remove('active');
                 navMenu.classList.remove('nav-active');
-                if (menuOverlay) {
-                    menuOverlay.classList.remove('overlay-active');
-                }
                 document.body.classList.remove('menu-open');
             }
         });

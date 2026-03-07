@@ -865,37 +865,6 @@ strong {
     font-size: 1.25rem;
   }
   
-  /* Overlay for closing menu on outside click */
-  .menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 998;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity var(--transition-normal), visibility var(--transition-normal);
-    pointer-events: none;
-  }
-  
-  .menu-overlay.overlay-active {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-  
-  /* Make sure the menu toggle stays above the overlay */
-  .menu-toggle {
-    z-index: 1001 !important;
-  }
-  
-  /* Make sure the nav menu is above the overlay */
-  .main-nav {
-    z-index: 999 !important;
-  }
-  
   /* Prevent body scroll when menu is open */
   body.menu-open {
     overflow: hidden;

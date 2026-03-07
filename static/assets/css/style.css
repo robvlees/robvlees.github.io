@@ -790,6 +790,8 @@ strong {
     gap: 0;
     max-height: 0;
     overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
     transition: all var(--transition-normal) ease-in-out;
     border: none;
     box-shadow: none;
@@ -797,6 +799,8 @@ strong {
   
   .nav-menu.nav-active {
     max-height: 400px;
+    visibility: visible;
+    opacity: 1;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   

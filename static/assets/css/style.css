@@ -720,7 +720,7 @@ strong {
   
   /* Hide sidebar on mobile */
   .sidebar {
-    display: none;
+    display: none !important;
   }
   
   /* Header container */

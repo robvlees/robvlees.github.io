@@ -12,7 +12,7 @@ tags:
 categories:
   - Technical
 featured_image:
-  path: images/portfolio/linux-automation.jpg
+  path: images/linux-22617.png
   alt: Linux Infrastructure Automation
   caption: "Automated server deployment pipeline"
   credit: Robert Vlees

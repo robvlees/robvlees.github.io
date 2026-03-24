@@ -718,6 +718,11 @@ strong {
     grid-template-columns: 1fr;
   }
   
+  /* Hide sidebar on mobile */
+  .sidebar {
+    display: none;
+  }
+  
   /* Header container */
   .header-container {
     padding: 0 1.5rem;

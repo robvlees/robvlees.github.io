@@ -34,7 +34,7 @@ twitter_image: '{{ site.url }}{{ site.baseurl }}{{ page.featured_image }}'
 
 In the rapidly evolving world of Large Language Models (LLMs), privacy and latency are becoming just as important as raw intelligence. After experimenting with various cloud APIs, I've settled on a robust, entirely local setup that runs on my own hardware.
 
-On 17 February 2026 The Qwen-3.5 model was released, Qwen is released as open source and freely available for everyone to use. [Unsloth Qwen 3.5](https://unsloth.ai/docs/models/qwen3.5){:target="_blank"} My current workflow relies on the **Qwen 3.5** family of models. While the base architecture is the same, the magic lies in how I orchestrate the infrastructure, tune the inference parameters for specific tasks, and manage context windows for large codebases.
+On 17 February 2026 The Qwen-3.5 model was released, Qwen is released as open source and freely available for everyone to use. [Unsloth Qwen 3.5](https://unsloth.ai/docs/models/qwen3.5) My current workflow relies on the **Qwen 3.5** family of models. While the base architecture is the same, the magic lies in how I orchestrate the infrastructure, tune the inference parameters for specific tasks, and manage context windows for large codebases.
 
 Here is the complete breakdown of my stack and how I leverage it for daily coding and brainstorming.
 

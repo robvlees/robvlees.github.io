@@ -13,7 +13,7 @@ tags:
 categories:
   - Creative
 featured_image:
-  path: images/gallery/sunset.jpg
+  path: /images/gallery/sunset.jpg
   alt: 3D Art Portfolio
   caption: "Professional 3D art and animation work"
   credit: Robert Vlees

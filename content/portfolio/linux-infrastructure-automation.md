@@ -12,7 +12,7 @@ tags:
 categories:
   - Technical
 featured_image:
-  path: images/linux-22617.png
+  path: /images/Flux2-Klein_00008_.png
   alt: Linux Infrastructure Automation
   caption: "Automated server deployment pipeline"
   credit: Robert Vlees

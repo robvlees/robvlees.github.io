@@ -66,8 +66,8 @@
             </li>
             {{ end }}
             
-            {{/* Show message if no posts found */}}
-            {{ if (not $pages) }}
+            {{/* Show message if no posts found (only on taxonomy pages) */}}
+            {{ if and (eq .Kind "taxonomyTerm") (not $pages) }}
             <p class="no-posts">No posts found in this category.</p>
             {{ end }}
         </ul>

@@ -3,7 +3,7 @@ title: "Linux Infrastructure Automation"
 subtitle: "Automated server provisioning and configuration management at scale"
 date: 2025-06-01T00:00:00+00:00
 lastmod: 2025-06-01T00:00:00+00:00
-author: Robert Vlees
+author: Rob Vleeshouwers
 description: "Comprehensive automation solution for enterprise Linux infrastructure management"
 tags:
   - Linux
@@ -15,7 +15,7 @@ featured_image:
   path: /images/Flux2-Klein_00008_.png
   alt: Linux Infrastructure Automation
   caption: "Automated server deployment pipeline"
-  credit: Robert Vlees
+  credit: Rob Vleeshouwers
   link: ""
 project_type: Enterprise Solution
 project_client: Internal
@@ -79,7 +79,3 @@ The solution consists of several interconnected components:
 - **Containerization**: Docker
 - **Monitoring**: Prometheus, Grafana
 - **Scripting**: Python, Bash
-
-## Gallery
-
-*Add project gallery images here*

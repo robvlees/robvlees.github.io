@@ -3,7 +3,7 @@ title: "3D Art & Animation Portfolio"
 subtitle: "Professional Blender 3D modeling, animation, and rendering"
 date: 2025-03-15T00:00:00+00:00
 lastmod: 2025-03-15T00:00:00+00:00
-author: Robert Vlees
+author: Rob Vleeshouwers
 description: "Collection of 3D art projects showcasing Blender modeling, animation, and rendering skills"
 tags:
   - Blender
@@ -16,7 +16,7 @@ featured_image:
   path: /images/gallery/sunset.jpg
   alt: 3D Art Portfolio
   caption: "Professional 3D art and animation work"
-  credit: Robert Vlees
+  credit: Rob Vleeshouwers
   link: ""
 project_type: Artistic Portfolio
 project_client: Personal
@@ -84,4 +84,4 @@ Each project follows a systematic approach:
 
 ## Gallery
 
-*Add project gallery images here*
+[Gallery](/gallery)

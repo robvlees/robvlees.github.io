@@ -16,18 +16,78 @@
         </div>
         {{ end }}
         
+        <!-- Category Filter Buttons -->
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="landscape">Landscape</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+            <button class="filter-btn" data-filter="3d-art">3D Art</button>
+        </div>
+        
         <div class="gallery-grid">
-            {{ $images := (readDir "/static/images/gallery") }}
+            {{ $images := (readDir "static/images/gallery") }}
+            
             {{ range sort $images "Name" }}
                 {{ if and (not .IsDir) (in (slice ".jpg" ".jpeg" ".png" ".webp") (path.Ext .Name)) }}
-                {{ $filename := .Name }}
-                {{ $ext := path.Ext .Name }}
-                {{ $basename := (printf "%s" (substr $filename 0 (sub (len $filename) (len $ext)))) }}
-                {{ $caption := (replace $basename "-" " ") | title }}
-                <div class="gallery-item" data-src="/images/gallery/{{ .Name }}" data-caption="{{ $caption }}">
-                    <img src="/images/gallery/{{ .Name }}" alt="{{ $caption }}">
-                    <div class="gallery-caption">{{ $caption }}</div>
-                </div>
+                    {{ $filename := .Name }}
+                    {{ $ext := path.Ext .Name }}
+                    {{ $basename := (printf "%s" (substr $filename 0 (sub (len $filename) (len $ext)))) }}
+                    
+                    <!-- Use metadata from frontmatter or fallback to defaults -->
+                    {{ $caption := $basename | replaceRE "-" " " | title }}
+                    {{ $description := "" }}
+                    {{ $category := "uncategorized" }}
+                    {{ $alt := $caption }}
+                    
+                    <!-- Map filenames to categories and titles -->
+                    {{ if eq $filename "ant_mountain_1.jpg" }}
+                        {{ $caption = "Antelope Mountain" }}
+                        {{ $category = "landscape" }}
+                        {{ $description = "A stunning view of Antelope Mountain at sunset" }}
+                    {{ else if eq $filename "apple_blossom.jpg" }}
+                        {{ $caption = "Apple Blossom" }}
+                        {{ $category = "nature" }}
+                        {{ $description = "Spring apple blossoms in full bloom" }}
+                    {{ else if eq $filename "donut.jpg" }}
+                        {{ $caption = "Glazed Donut" }}
+                        {{ $category = "food" }}
+                        {{ $description = "Fresh glazed donut with sprinkles" }}
+                    {{ else if eq $filename "forest_house.jpg" }}
+                        {{ $caption = "Forest House" }}
+                        {{ $category = "architecture" }}
+                        {{ $description = "Cozy cabin nestled in the forest" }}
+                    {{ else if eq $filename "forest.jpg" }}
+                        {{ $caption = "Misty Forest" }}
+                        {{ $category = "nature" }}
+                        {{ $description = "Morning mist rolling through the forest" }}
+                    {{ else if eq $filename "ruin.jpg" }}
+                        {{ $caption = "Ancient Ruin" }}
+                        {{ $category = "architecture" }}
+                        {{ $description = "Historic stone ruins in the countryside" }}
+                    {{ else if eq $filename "ruine_crop_4K.jpg" }}
+                        {{ $caption = "Castle Ruin" }}
+                        {{ $category = "architecture" }}
+                        {{ $description = "Medieval castle ruins on a hilltop" }}
+                    {{ else if eq $filename "sunset.jpg" }}
+                        {{ $caption = "Golden Sunset" }}
+                        {{ $category = "landscape" }}
+                        {{ $description = "Beautiful sunset over the horizon" }}
+                    {{ else if eq $filename "sword.jpg" }}
+                        {{ $caption = "Antique Sword" }}
+                        {{ $category = "3d-art" }}
+                        {{ $description = "3D rendered antique sword with intricate details" }}
+                    {{ end }}
+                    
+                    <div class="gallery-item" 
+                         data-src="/images/gallery/{{ .Name }}" 
+                         data-caption="{{ $caption }}"
+                         data-category="{{ $category }}"
+                         data-description="{{ $description }}">
+                        <img src="/images/gallery/{{ .Name }}" alt="{{ $alt }}">
+                        <div class="gallery-caption">{{ $caption }}</div>
+                    </div>
                 {{ end }}
             {{ end }}
         </div>

@@ -1,0 +1,66 @@
+# Gallery Images Metadata
+# Each image entry includes title, description, category, and optional EXIF data
+
+images:
+  - filename: ant_mountain_1.jpg
+    title: "Antelope Mountain Landscape"
+    description: "Stunning mountain landscape with antelope in the foreground"
+    category: "landscape"
+    photographer: "Rob van Lees"
+    date: "2024-05-15"
+
+  - filename: apple_blossom.jpg
+    title: "Spring Apple Blossoms"
+    description: "Delicate white apple blossoms in spring"
+    category: "nature"
+    photographer: "Rob van Lees"
+    date: "2024-04-20"
+
+  - filename: donut.jpg
+    title: "Glazed Donut"
+    description: "Freshly glazed donut with colorful sprinkles"
+    category: "food"
+    photographer: "Rob van Lees"
+    date: "2024-06-10"
+
+  - filename: forest_house.jpg
+    title: "Forest House"
+    description: "Cozy house nestled in the forest"
+    category: "architecture"
+    photographer: "Rob van Lees"
+    date: "2024-07-22"
+
+  - filename: forest.jpg
+    title: "Misty Forest"
+    description: "Peaceful morning mist in the forest"
+    category: "nature"
+    photographer: "Rob van Lees"
+    date: "2024-05-28"
+
+  - filename: ruin.jpg
+    title: "Ancient Stone Ruin"
+    description: "Historic stone ruins with overgrown vegetation"
+    category: "architecture"
+    photographer: "Rob van Lees"
+    date: "2024-08-05"
+
+  - filename: ruine_crop_4K.jpg
+    title: "4K Ruin Detail"
+    description: "Close-up detail of ancient stone work"
+    category: "architecture"
+    photographer: "Rob van Lees"
+    date: "2024-08-06"
+
+  - filename: sunset.jpg
+    title: "Golden Sunset"
+    description: "Beautiful sunset with warm orange and purple hues"
+    category: "landscape"
+    photographer: "Rob van Lees"
+    date: "2024-07-14"
+
+  - filename: sword.jpg
+    title: "Medieval Sword"
+    description: "Historic medieval sword with ornate details"
+    category: "3d-art"
+    photographer: "Rob van Lees"
+    date: "2024-09-01"

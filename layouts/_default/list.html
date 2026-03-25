@@ -18,7 +18,30 @@
         
         <ul class="post-list">
             {{ $section := .Params.type | default .Section }}
-            {{ range where .Site.RegularPages "Section" (cond (eq $section "post") "post" $section) }}
+            
+            {{/* Check if we're on a taxonomy (category/tag) page */}}
+            {{ $pages := slice }}
+            {{/* Debug: print Kind and Data */}}
+            {{/* {{ printf "Kind: %s, Data.Plural: %s" .Kind .Data.Plural }} */}}
+            {{ if eq .Data.Plural "categories" }}
+                {{/* For category pages */}}
+                {{ if eq .Kind "taxonomyTerm" }}
+                    {{/* For /categories/ (listing all categories), show all pages */}}
+                    {{ $pages = .Site.RegularPages }}
+                {{ else }}
+                    {{/* For /categories/creative/ (single category) */}}
+                    {{ $pages = .Pages }}
+                {{ end }}
+            {{ else if eq .Data.Plural "tags" }}
+                {{ $pages = .Pages }}
+            {{ else if eq .Data.Plural "authors" }}
+                {{ $pages = .Pages }}
+            {{ else }}
+                {{/* Regular section page - filter by section */}}
+                {{ $pages = where .Site.RegularPages "Section" (cond (eq $section "post") "post" $section) }}
+            {{ end }}
+            
+            {{ range $pages }}
             <li class="post-item">
                 <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                 <p class="post-meta">
@@ -32,6 +55,11 @@
                 <a href="{{ .Permalink }}">Read more →</a>
             </li>
             {{ end }}
+            
+            {{/* Show message if no posts found */}}
+            {{ if (not $pages) }}
+            <p class="no-posts">No posts found in this category.</p>
+            {{ end }}
         </ul>
     </div>
     
@@ -40,7 +68,8 @@
         <div class="sidebar-section">
             <h3 class="section-title">LATEST POSTS</h3>
             <div class="latest-posts">
-                {{ $pages := where .Site.RegularPages "Section" $currentSection }}
+                {{/* Always show latest posts from the post section, regardless of current page */}}
+                {{ $pages := where .Site.RegularPages "Section" "post" }}
                 {{ range first 3 $pages }}
                 <div class="sidebar-post-item">
                     <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>

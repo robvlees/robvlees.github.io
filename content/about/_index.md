@@ -119,7 +119,7 @@ When I'm not working with systems or creating 3D art, you'll find me exploring n
 
 ### Get in Touch
 
-Feel free to reach out to me at [{{ site.email }}](mailto:{{ site.email }}) or connect with me on social media.
+Feel free to reach out to me at [robvlees@gmail.com](mailto:robvlees@gmail.com) or connect with me on social media.
 
 I'm always excited to collaborate on new projects and share knowledge with fellow developers and creatives.
 

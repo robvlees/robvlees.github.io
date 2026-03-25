@@ -21,6 +21,7 @@ tags:
 - Blender
 - workflow optimization
 title: 'Getting Started with ComfyUI: A Powerful Node-Based Interface for Stable Diffusion'
+categories: ["Creative"]
 ---
 
 If you're interested in AI image generation and have experimented with Stable Diffusion, you've probably encountered various web interfaces and tools. One that stands out for its flexibility and power is ComfyUI - an open-source, node-based graphical user interface that lets you create complex AI image generation workflows visually, without writing code.

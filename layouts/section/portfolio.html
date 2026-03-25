@@ -16,11 +16,26 @@
         </div>
         {{ end }}
         
+        <!-- Portfolio Filters -->
+        <div class="portfolio-filters">
+            <button type="button" class="filter-btn active" data-filter="all">All</button>
+            {{ $allCategories := slice }}
+            {{ range where .Site.RegularPages "Section" "portfolio" }}
+                {{ range .Params.categories }}
+                    {{ $allCategories = $allCategories | append . }}
+                {{ end }}
+            {{ end }}
+            {{ $uniqueCategories := $allCategories | uniq }}
+            {{ range $uniqueCategories }}
+                <button type="button" class="filter-btn" data-filter="{{ . | urlize }}">{{ . }}</button>
+            {{ end }}
+        </div>
+        
         <!-- Portfolio Grid -->
         <div class="portfolio-grid">
             {{ $portfolioPages := where .Site.RegularPages "Section" "portfolio" }}
             {{ range sort $portfolioPages ".Date" "desc" }}
-            <article class="portfolio-item">
+            <article class="portfolio-item" data-categories="{{ with .Params.categories }}{{ range $index, $cat := . }}{{ if $index }} {{ end }}{{ $cat | urlize }}{{ end }}{{ end }}">
                 <div class="portfolio-card">
                     {{ with .Params.featured_image }}
                     <div class="portfolio-image">

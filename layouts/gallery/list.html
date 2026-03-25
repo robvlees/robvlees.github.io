@@ -26,6 +26,7 @@
                 {{ $caption := (replace $basename "-" " ") | title }}
                 <div class="gallery-item" data-src="/images/gallery/{{ .Name }}" data-caption="{{ $caption }}">
                     <img src="/images/gallery/{{ .Name }}" alt="{{ $caption }}">
+                    <div class="gallery-caption">{{ $caption }}</div>
                 </div>
                 {{ end }}
             {{ end }}

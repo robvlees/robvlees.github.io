@@ -10,6 +10,8 @@ hero_image: /images/blender/donut.jpg
 hero_darken: true
 hero_height: is-fullwidth
 featured: true
+categories:
+  - creative
 tags:
   - blender
   - 3d-modeling

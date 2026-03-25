@@ -9,6 +9,8 @@ image: /images/comfyui.png
 hero_image: /images/comfyui.png
 hero_darken: true
 hero_height: is-fullwidth
+categories:
+  - creative
 keywords: ComfyUI, Stable Diffusion, AI image generation, node-based interface, style transfer, pop art, AI art, machine learning, creative AI, image to image, tutorial, art tools, digital illustration, prompt engineering, Roy Lichtenstein, comic book style, visual workflows, AI art creation, generative AI
 og_title: Getting Started with ComfyUI - Node-Based Interface for Stable Diffusion
 og_description: Learn how to use ComfyUI, an open-source node-based GUI for creating advanced Stable Diffusion workflows without coding. Complete guide for beginners and professionals.

@@ -8,6 +8,8 @@ image: /images/linux-22617.png
 hero_image: /images/linux-22617.png
 hero_darken: true
 hero_height: is-fullwidth
+categories:
+  - technical
 tags:
   - linux
   - devops

@@ -30,7 +30,17 @@
                     {{ $pages = .Site.RegularPages }}
                 {{ else }}
                     {{/* For /categories/creative/ (single category) */}}
-                    {{ $pages = .Pages }}
+                    {{ $termKey := lower .Title }}
+                    {{/* Get posts with this category */}}
+                    {{ $postPages := slice }}
+                    {{ with index .Site.Taxonomies.categories $termKey }}
+                        {{ $postPages = .Pages }}
+                    {{ end }}
+                    {{/* Get tutorials with this category */}}
+                    {{ $tutorialPages := where .Site.RegularPages "Section" "tutorials" }}
+                    {{ $tutorialPages = where $tutorialPages "Params.categories" "in" (slice $termKey) }}
+                    {{/* Combine posts and tutorials */}}
+                    {{ $pages = union $postPages $tutorialPages }}
                 {{ end }}
             {{ else if eq .Data.Plural "tags" }}
                 {{ $pages = .Pages }}

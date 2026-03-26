@@ -357,12 +357,82 @@ To see trends over time.
 
 ## 🌟 Why This Architecture Wins
 
-| Feature | Traditional DIY | Commercial Cloud | **My ESPHome + Node-RED Setup** |
-| :--- | :--- | :--- | :--- |
-| **Reliability** | Low (Code bugs) | Medium (Server outages) | **High** (Local, no internet needed) |
-| **Flexibility** | High (Hard to edit) | Low (Fixed features) | **Very High** (Visual Node-RED logic) |
-| **Privacy** | High | Low (Data in cloud) | **High** (All local) |
-| **Setup** | Hard (C++/Python) | Easy | **Medium** (But very powerful) |
+<style>
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+.comparison-table th {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  padding: 16px 12px;
+  font-weight: bold;
+  border: 1px solid #1d4ed8;
+}
+.comparison-table td {
+  padding: 16px 12px;
+  border: 1px solid #e5e7eb;
+}
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+.comparison-table th:nth-child(2),
+.comparison-table td:nth-child(2),
+.comparison-table th:nth-child(3),
+.comparison-table td:nth-child(3),
+.comparison-table th:nth-child(4),
+.comparison-table td:nth-child(4) {
+  text-align: center;
+}
+.theme-dark .comparison-table th {
+  background: linear-gradient(135deg, #ff8c00 0%, #e67000 100%);
+  border-color: #e67000;
+}
+.theme-dark .comparison-table td {
+  border-color: rgba(255, 140, 0, 0.15);
+}
+</style>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Traditional DIY</th>
+      <th>Commercial Cloud</th>
+      <th>My ESPHome + Node-RED Setup</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reliability</td>
+      <td>Low (Code bugs)</td>
+      <td>Medium (Server outages)</td>
+      <td><strong>High</strong> (Local, no internet needed)</td>
+    </tr>
+    <tr>
+      <td>Flexibility</td>
+      <td>High (Hard to edit)</td>
+      <td>Low (Fixed features)</td>
+      <td><strong>Very High</strong> (Visual Node-RED logic)</td>
+    </tr>
+    <tr>
+      <td>Privacy</td>
+      <td>High</td>
+      <td>Low (Data in cloud)</td>
+      <td><strong>High</strong> (All local)</td>
+    </tr>
+    <tr>
+      <td>Setup</td>
+      <td>Hard (C++/Python)</td>
+      <td>Easy</td>
+      <td><strong>Medium</strong> (But very powerful)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Key Benefits
 

@@ -12,7 +12,7 @@
   --accent-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   --border-color: #e5e7eb;
   --border-hover: #cbd5e1;
-  --container-max: 1100px;
+  --container-max: 1400px;
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
@@ -553,25 +553,79 @@ strong {
   display: block;
 }
 
-.img-full {
+/* Image helper classes for kramdown inline styles */
+/* These classes are applied by Hugo/kramdown to the img tag directly */
+.post-content img.img-full,
+.post-content figure.img-full img {
   max-width: 100% !important;
   width: 100% !important;
   display: block !important;
-  margin: 1.5rem auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
-.post-content > .img-full {
-  max-width: 100% !important;
-}
-
-.img-center {
+.post-content img.img-center,
+.post-content figure.img-center img {
   margin-left: auto !important;
   margin-right: auto !important;
   display: block !important;
 }
 
-.img-shadow {
-  box-shadow: var(--shadow-md);
+.post-content img.img-shadow,
+.post-content figure.img-shadow img {
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* Combined classes for full-width centered images with shadow */
+.post-content img.img-full.img-center,
+.post-content figure.img-full.img-center img {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.post-content img.img-full.img-shadow,
+.post-content figure.img-full.img-shadow img,
+.post-content img.img-center.img-shadow,
+.post-content figure.img-center.img-shadow img,
+.post-content img.img-full.img-center.img-shadow,
+.post-content figure.img-full.img-center.img-shadow img {
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* Figcaption styling for image captions */
+.post-content figure figcaption,
+.post-content figcaption {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  text-align: right !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.5rem !important;
+  padding-right: 1rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Ensure images with these classes display properly */
+.post-content img.img-full,
+.post-content img.img-center,
+.post-content img.img-shadow,
+.post-content img.img-full.img-center,
+.post-content img.img-full.img-shadow,
+.post-content img.img-center.img-shadow,
+.post-content img.img-full.img-center.img-shadow,
+.post-content figure.img-full img,
+.post-content figure.img-center img,
+.post-content figure.img-shadow img,
+.post-content figure.img-full.img-center img,
+.post-content figure.img-full.img-shadow img,
+.post-content figure.img-center.img-shadow img,
+.post-content figure.img-full.img-center.img-shadow img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
 }
 
 .post-tags {

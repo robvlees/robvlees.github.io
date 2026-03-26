@@ -1,0 +1,16 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+
+{{- if $src -}}
+{{- $imgClass := cond (ne $class "") $class "img-full" -}}
+<img src="{{ $src }}" alt="{{ $alt }}" class="{{ $imgClass }}"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }}>
+{{- if $caption -}}
+<figcaption>{{ $caption }}</figcaption>
+{{- end -}}
+{{- else -}}
+{{- errorf "The img shortcode requires a 'src' parameter. Usage: {{< img src='/path/to/image.jpg' alt='Description' class='img-full img-center' >}}" -}}
+{{- end -}}

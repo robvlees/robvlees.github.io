@@ -30,7 +30,7 @@ If you're interested in AI image generation and have experimented with Stable Di
 
 ComfyUI is a powerful interface built for Stable Diffusion that uses a node-based system. Instead of a traditional form-based interface, you work with nodes connected together in a visual workflow. Each node represents a specific function or process in the image generation pipeline, such as loading models, applying prompts, controlling sampling parameters, or post-processing images.
 
-![ComfyUI Interface Example](/images/comfyui-workflow1.jpg){:.img-full .img-center .img-shadow}
+{{< img src="/images/comfyui-workflow1.jpg" alt="ComfyUI Interface Example" class="img-full img-center img-shadow" >}}
 
 This approach might seem familiar if you've used node-based compositing software like Blender's Shader Editor or Nuke. If you're comfortable with visual programming, ComfyUI will feel natural. If not, there's a learning curve, but the flexibility it provides is worth the investment.
 
@@ -62,7 +62,7 @@ For those who prefer not to deal with local installation, cloud-based services l
 
 Working with nodes might seem intimidating at first, but it's actually quite intuitive once you understand the basics. You start with input nodes for your prompt and settings, connect them through processing nodes like model loaders and samplers, and end with output nodes that generate your image.
 
-![Example ComfyUI Workflow](/images/comfyui-workflow2.jpg){:.img-full .img-center .img-shadow}
+{{< img src="/images/comfyui-workflow2.jpg" alt="Example ComfyUI Workflow" class="img-full img-center img-shadow" >}}
 
 The visual nature of the interface makes it easy to see how data flows through your workflow. You can experiment by adding nodes, modifying connections, and adjusting parameters until you achieve the desired results.
 

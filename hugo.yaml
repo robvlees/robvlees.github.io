@@ -58,6 +58,9 @@ caches:
 # Markup settings
 markup:
   goldmark:
+    extensions:
+      attributes:
+        enable: true
     renderer:
       unsafe: true
   tableOfContents:

@@ -3,12 +3,27 @@ type: "post"
 author: R. Vleeshouwers
 avatar: /images/me.jpg
 date: '2026-03-26T07:00:00Z'
-description: Learn how to build a custom, reliable garden watering system using an ESP32, ESPHome, and Node-RED. This guide covers hardware setup, MQTT/HA integration, and creating a stunning dashboard.
+lastmod: '2026-03-26T10:00:00Z'
+description: Complete guide to building a smart garden watering system with ESP32, ESPHome, and Node-RED. Learn hardware setup, MQTT integration with Home Assistant, custom automation logic, and create beautiful IoT dashboards for your smart home.
 hero_image: /images/posts/home_assistant_dashboard.png
 image: /images/posts/home_assistant_dashboard.png
-keywords: ESP32, ESPHome, Node-RED, Home Assistant, smart garden, IoT, MQTT, Kubernetes, automation
-og_description: Learn how to build a custom, reliable garden watering system using an ESP32, ESPHome, and Node-RED. This guide covers hardware setup, MQTT/HA integration, and creating a stunning dashboard.
+image_alt: "Home Assistant Garden Control dashboard showing soil moisture gauge and pump controls"
+keywords: ESP32, ESPHome, Node-RED, Home Assistant, smart garden, IoT, MQTT, Kubernetes, automation, DIY smart home, home automation, irrigation system
+og_description: Complete guide to building a smart garden watering system with ESP32, ESPHome, and Node-RED. Learn hardware setup, MQTT integration with Home Assistant, custom automation logic, and create beautiful IoT dashboards for your smart home.
 og_title: 'My Smart Garden: ESPHome Hardware, Node-RED Logic, and Beautiful Dashboards'
+og_type: article
+og_site_name: Rob Vleeshouwers
+article_author: R. Vleeshouwers
+article_section: IoT & Home Automation
+article_tag:
+- ESPHome
+- Node-RED
+- Home Assistant
+- ESP32
+- IoT
+- MQTT
+- Smart Home
+- DIY Automation
 tags:
 - ESPHome
 - Node-RED
